@@ -1,0 +1,261 @@
+2026-04-15 15:17:02,264 | INFO | Epoch 0 training started
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+2026-04-15 15:17:04,979 | INFO | [Epoch 0 | Step 0] Loss: 1.6604
+2026-04-15 15:19:03,537 | INFO | [Epoch 0 | Step 50] Loss: 0.8017
+2026-04-15 15:21:02,273 | INFO | [Epoch 0 | Step 100] Loss: 0.5530
+2026-04-15 15:23:01,136 | INFO | [Epoch 0 | Step 150] Loss: 0.4470
+2026-04-15 15:25:00,287 | INFO | [Epoch 0 | Step 200] Loss: 0.4762
+2026-04-15 15:26:57,568 | INFO | Epoch 0 completed | Loss: 0.6130 | Time: 595.30s
+2026-04-15 15:26:57,571 | INFO | Epoch 0 evaluation started
+2026-04-15 15:27:42,379 | INFO | Epoch 0 Validation Loss: 0.3779
+2026-04-15 15:27:42,380 | INFO | Binary Accuracy: 0.9344 | F1: 0.9560
+2026-04-15 15:27:42,381 | INFO | Severity Accuracy: 0.8911 | F1: 0.8903
+2026-04-15 15:27:42,391 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.89      0.87      4000
+           1       0.93      0.93      0.93      4000
+           2       0.87      0.79      0.83      4000
+           3       0.92      0.95      0.94      4000
+
+    accuracy                           0.89     16000
+   macro avg       0.89      0.89      0.89     16000
+weighted avg       0.89      0.89      0.89     16000
+
+2026-04-15 15:27:42,392 | INFO | Evaluation time: 44.82s
+2026-04-15 15:27:42,393 | INFO | Epoch 1 training started
+Epoch 0 | Train Loss: 0.6130 | Val Loss: 0.3779 | Bin Acc: 0.9344 | Sev Acc: 0.8911 | Sev F1: 0.8903
+2026-04-15 15:27:44,892 | INFO | [Epoch 1 | Step 0] Loss: 0.3286
+2026-04-15 15:29:44,645 | INFO | [Epoch 1 | Step 50] Loss: 0.3150
+2026-04-15 15:34:50,106 | INFO | [Epoch 1 | Step 100] Loss: 0.2755
+2026-04-15 15:36:49,867 | INFO | [Epoch 1 | Step 150] Loss: 0.3519
+2026-04-15 15:38:49,520 | INFO | [Epoch 1 | Step 200] Loss: 0.2876
+2026-04-15 15:40:47,023 | INFO | Epoch 1 completed | Loss: 0.3412 | Time: 784.63s
+2026-04-15 15:40:47,026 | INFO | Epoch 1 evaluation started
+2026-04-15 15:41:55,910 | INFO | Epoch 1 Validation Loss: 0.3618
+2026-04-15 15:41:55,911 | INFO | Binary Accuracy: 0.9375 | F1: 0.9582
+2026-04-15 15:41:55,912 | INFO | Severity Accuracy: 0.8956 | F1: 0.8944
+2026-04-15 15:41:55,922 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.89      0.88      4000
+           1       0.91      0.95      0.93      4000
+           2       0.89      0.79      0.83      4000
+           3       0.92      0.95      0.94      4000
+
+    accuracy                           0.90     16000
+   macro avg       0.90      0.90      0.89     16000
+weighted avg       0.90      0.90      0.89     16000
+
+2026-04-15 15:41:55,923 | INFO | Evaluation time: 68.90s
+2026-04-15 15:41:55,925 | INFO | Epoch 2 training started
+Epoch 1 | Train Loss: 0.3412 | Val Loss: 0.3618 | Bin Acc: 0.9375 | Sev Acc: 0.8956 | Sev F1: 0.8944
+2026-04-15 15:41:58,363 | INFO | [Epoch 2 | Step 0] Loss: 0.3286
+2026-04-15 15:43:57,519 | INFO | [Epoch 2 | Step 50] Loss: 0.2762
+2026-04-15 15:45:57,666 | INFO | [Epoch 2 | Step 100] Loss: 0.2630
+2026-04-15 15:47:58,966 | INFO | [Epoch 2 | Step 150] Loss: 0.2491
+2026-04-15 15:49:59,036 | INFO | [Epoch 2 | Step 200] Loss: 0.2720
+2026-04-15 15:51:57,660 | INFO | Epoch 2 completed | Loss: 0.2631 | Time: 601.73s
+2026-04-15 15:51:57,663 | INFO | Epoch 2 evaluation started
+2026-04-15 15:52:41,659 | INFO | Epoch 2 Validation Loss: 0.3474
+2026-04-15 15:52:41,660 | INFO | Binary Accuracy: 0.9404 | F1: 0.9604
+2026-04-15 15:52:41,661 | INFO | Severity Accuracy: 0.9039 | F1: 0.9032
+2026-04-15 15:52:41,676 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      4000
+           1       0.93      0.95      0.94      4000
+           2       0.87      0.82      0.85      4000
+           3       0.93      0.96      0.94      4000
+
+    accuracy                           0.90     16000
+   macro avg       0.90      0.90      0.90     16000
+weighted avg       0.90      0.90      0.90     16000
+
+2026-04-15 15:52:41,677 | INFO | Evaluation time: 44.01s
+2026-04-15 15:52:41,682 | INFO | Epoch 3 training started
+Epoch 2 | Train Loss: 0.2631 | Val Loss: 0.3474 | Bin Acc: 0.9404 | Sev Acc: 0.9039 | Sev F1: 0.9032
+2026-04-15 15:52:44,137 | INFO | [Epoch 3 | Step 0] Loss: 0.1961
+2026-04-15 15:54:44,805 | INFO | [Epoch 3 | Step 50] Loss: 0.2193
+2026-04-15 15:56:48,079 | INFO | [Epoch 3 | Step 100] Loss: 0.2606
+2026-04-15 15:58:48,747 | INFO | [Epoch 3 | Step 150] Loss: 0.1937
+2026-04-15 16:00:48,107 | INFO | [Epoch 3 | Step 200] Loss: 0.2408
+2026-04-15 16:03:05,594 | INFO | Epoch 3 completed | Loss: 0.2037 | Time: 623.91s
+2026-04-15 16:03:05,597 | INFO | Epoch 3 evaluation started
+2026-04-15 16:03:48,732 | INFO | Epoch 3 Validation Loss: 0.3736
+2026-04-15 16:03:48,733 | INFO | Binary Accuracy: 0.9391 | F1: 0.9591
+2026-04-15 16:03:48,733 | INFO | Severity Accuracy: 0.9029 | F1: 0.9023
+2026-04-15 16:03:48,741 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      4000
+           1       0.94      0.95      0.94      4000
+           2       0.87      0.81      0.84      4000
+           3       0.93      0.96      0.94      4000
+
+    accuracy                           0.90     16000
+   macro avg       0.90      0.90      0.90     16000
+weighted avg       0.90      0.90      0.90     16000
+
+2026-04-15 16:03:48,742 | INFO | Evaluation time: 43.14s
+2026-04-15 16:03:48,744 | INFO | Epoch 4 training started
+Epoch 3 | Train Loss: 0.2037 | Val Loss: 0.3736 | Bin Acc: 0.9391 | Sev Acc: 0.9029 | Sev F1: 0.9023
+2026-04-15 16:03:51,166 | INFO | [Epoch 4 | Step 0] Loss: 0.1435
+2026-04-15 16:05:50,732 | INFO | [Epoch 4 | Step 50] Loss: 0.1766
+2026-04-15 16:07:50,382 | INFO | [Epoch 4 | Step 100] Loss: 0.2211
+2026-04-15 16:09:50,076 | INFO | [Epoch 4 | Step 150] Loss: 0.1653
+2026-04-15 16:11:50,070 | INFO | [Epoch 4 | Step 200] Loss: 0.1740
+2026-04-15 16:17:44,754 | INFO | Epoch 4 completed | Loss: 0.1544 | Time: 836.01s
+2026-04-15 16:17:44,757 | INFO | Epoch 4 evaluation started
+2026-04-15 16:18:31,558 | INFO | Epoch 4 Validation Loss: 0.4199
+2026-04-15 16:18:31,559 | INFO | Binary Accuracy: 0.9406 | F1: 0.9606
+2026-04-15 16:18:31,560 | INFO | Severity Accuracy: 0.9005 | F1: 0.9004
+2026-04-15 16:18:31,582 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      4000
+           1       0.95      0.93      0.94      4000
+           2       0.84      0.85      0.84      4000
+           3       0.93      0.96      0.94      4000
+
+    accuracy                           0.90     16000
+   macro avg       0.90      0.90      0.90     16000
+weighted avg       0.90      0.90      0.90     16000
+
+2026-04-15 16:18:31,584 | INFO | Evaluation time: 46.83s
+2026-04-15 16:18:31,588 | INFO | Epoch 5 training started
+Epoch 4 | Train Loss: 0.1544 | Val Loss: 0.4199 | Bin Acc: 0.9406 | Sev Acc: 0.9005 | Sev F1: 0.9004
+2026-04-15 16:18:34,417 | INFO | [Epoch 5 | Step 0] Loss: 0.1126
+2026-04-15 16:20:36,366 | INFO | [Epoch 5 | Step 50] Loss: 0.0814
+2026-04-15 16:22:37,388 | INFO | [Epoch 5 | Step 100] Loss: 0.1480
+2026-04-15 16:24:42,200 | INFO | [Epoch 5 | Step 150] Loss: 0.1660
+2026-04-15 16:26:42,156 | INFO | [Epoch 5 | Step 200] Loss: 0.1778
+2026-04-15 16:28:57,775 | INFO | Epoch 5 completed | Loss: 0.1230 | Time: 626.19s
+2026-04-15 16:28:57,778 | INFO | Epoch 5 evaluation started
+2026-04-15 16:29:43,123 | INFO | Epoch 5 Validation Loss: 0.4434
+2026-04-15 16:29:43,124 | INFO | Binary Accuracy: 0.9420 | F1: 0.9616
+2026-04-15 16:29:43,124 | INFO | Severity Accuracy: 0.9048 | F1: 0.9049
+2026-04-15 16:29:43,134 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.86      0.88      4000
+           1       0.95      0.94      0.94      4000
+           2       0.83      0.86      0.85      4000
+           3       0.94      0.96      0.95      4000
+
+    accuracy                           0.90     16000
+   macro avg       0.91      0.90      0.90     16000
+weighted avg       0.91      0.90      0.90     16000
+
+2026-04-15 16:29:43,135 | INFO | Evaluation time: 45.36s
+2026-04-15 16:29:43,137 | INFO | Epoch 6 training started
+Epoch 5 | Train Loss: 0.1230 | Val Loss: 0.4434 | Bin Acc: 0.9420 | Sev Acc: 0.9048 | Sev F1: 0.9049
+2026-04-15 16:29:45,646 | INFO | [Epoch 6 | Step 0] Loss: 0.0800
+2026-04-15 16:31:45,350 | INFO | [Epoch 6 | Step 50] Loss: 0.1178
+2026-04-15 16:35:13,786 | INFO | [Epoch 6 | Step 100] Loss: 0.1488
+2026-04-15 16:37:12,957 | INFO | [Epoch 6 | Step 150] Loss: 0.1354
+2026-04-15 16:40:06,108 | INFO | [Epoch 6 | Step 200] Loss: 0.1105
+2026-04-15 16:42:03,201 | INFO | Epoch 6 completed | Loss: 0.0991 | Time: 740.06s
+2026-04-15 16:42:03,204 | INFO | Epoch 6 evaluation started
+2026-04-15 16:42:54,656 | INFO | Epoch 6 Validation Loss: 0.4898
+2026-04-15 16:42:54,657 | INFO | Binary Accuracy: 0.9406 | F1: 0.9602
+2026-04-15 16:42:54,657 | INFO | Severity Accuracy: 0.9056 | F1: 0.9050
+2026-04-15 16:42:54,670 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.90      0.88      4000
+           1       0.94      0.95      0.94      4000
+           2       0.87      0.82      0.85      4000
+           3       0.93      0.96      0.95      4000
+
+    accuracy                           0.91     16000
+   macro avg       0.91      0.91      0.91     16000
+weighted avg       0.91      0.91      0.91     16000
+
+2026-04-15 16:42:54,671 | INFO | Evaluation time: 51.47s
+2026-04-15 16:42:54,675 | INFO | Epoch 7 training started
+Epoch 6 | Train Loss: 0.0991 | Val Loss: 0.4898 | Bin Acc: 0.9406 | Sev Acc: 0.9056 | Sev F1: 0.9050
+2026-04-15 16:42:59,051 | INFO | [Epoch 7 | Step 0] Loss: 0.0789
+2026-04-15 16:44:58,368 | INFO | [Epoch 7 | Step 50] Loss: 0.0824
+2026-04-15 16:47:08,779 | INFO | [Epoch 7 | Step 100] Loss: 0.1754
+2026-04-15 16:49:08,245 | INFO | [Epoch 7 | Step 150] Loss: 0.1135
+2026-04-15 16:51:38,336 | INFO | [Epoch 7 | Step 200] Loss: 0.1705
+2026-04-15 16:53:35,317 | INFO | Epoch 7 completed | Loss: 0.0825 | Time: 640.64s
+2026-04-15 16:53:35,320 | INFO | Epoch 7 evaluation started
+2026-04-15 16:54:19,894 | INFO | Epoch 7 Validation Loss: 0.4662
+2026-04-15 16:54:19,896 | INFO | Binary Accuracy: 0.9397 | F1: 0.9596
+2026-04-15 16:54:19,896 | INFO | Severity Accuracy: 0.9051 | F1: 0.9051
+2026-04-15 16:54:19,905 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      4000
+           1       0.96      0.94      0.95      4000
+           2       0.86      0.83      0.84      4000
+           3       0.94      0.95      0.95      4000
+
+    accuracy                           0.91     16000
+   macro avg       0.91      0.91      0.91     16000
+weighted avg       0.91      0.91      0.91     16000
+
+2026-04-15 16:54:19,906 | INFO | Evaluation time: 44.59s
+2026-04-15 16:54:19,908 | INFO | Epoch 8 training started
+Epoch 7 | Train Loss: 0.0825 | Val Loss: 0.4662 | Bin Acc: 0.9397 | Sev Acc: 0.9051 | Sev F1: 0.9051
+2026-04-15 16:54:22,434 | INFO | [Epoch 8 | Step 0] Loss: 0.0327
+2026-04-15 16:57:48,002 | INFO | [Epoch 8 | Step 50] Loss: 0.0522
+2026-04-15 16:59:48,802 | INFO | [Epoch 8 | Step 100] Loss: 0.0722
+2026-04-15 17:01:48,551 | INFO | [Epoch 8 | Step 150] Loss: 0.0457
+2026-04-15 17:03:48,435 | INFO | [Epoch 8 | Step 200] Loss: 0.0212
+2026-04-15 17:05:45,312 | INFO | Epoch 8 completed | Loss: 0.0679 | Time: 685.40s
+2026-04-15 17:05:45,314 | INFO | Epoch 8 evaluation started
+2026-04-15 17:08:06,901 | INFO | Epoch 8 Validation Loss: 0.5075
+2026-04-15 17:08:06,901 | INFO | Binary Accuracy: 0.9413 | F1: 0.9607
+2026-04-15 17:08:06,902 | INFO | Severity Accuracy: 0.9059 | F1: 0.9048
+2026-04-15 17:08:06,912 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.89      0.88      4000
+           1       0.93      0.96      0.95      4000
+           2       0.89      0.80      0.84      4000
+           3       0.93      0.97      0.95      4000
+
+    accuracy                           0.91     16000
+   macro avg       0.91      0.91      0.90     16000
+weighted avg       0.91      0.91      0.90     16000
+
+2026-04-15 17:08:06,913 | INFO | Evaluation time: 141.60s
+2026-04-15 17:08:06,914 | INFO | Epoch 9 training started
+Epoch 8 | Train Loss: 0.0679 | Val Loss: 0.5075 | Bin Acc: 0.9413 | Sev Acc: 0.9059 | Sev F1: 0.9048
+2026-04-15 17:08:09,324 | INFO | [Epoch 9 | Step 0] Loss: 0.0857
+2026-04-15 17:10:09,425 | INFO | [Epoch 9 | Step 50] Loss: 0.0305
+2026-04-15 17:12:08,680 | INFO | [Epoch 9 | Step 100] Loss: 0.0444
+2026-04-15 17:14:26,546 | INFO | [Epoch 9 | Step 150] Loss: 0.0946
+2026-04-15 17:16:25,743 | INFO | [Epoch 9 | Step 200] Loss: 0.0208
+2026-04-15 17:18:23,007 | INFO | Epoch 9 completed | Loss: 0.0598 | Time: 616.09s
+2026-04-15 17:18:23,011 | INFO | Epoch 9 evaluation started
+2026-04-15 17:19:07,668 | INFO | Epoch 9 Validation Loss: 0.5125
+2026-04-15 17:19:07,669 | INFO | Binary Accuracy: 0.9411 | F1: 0.9609
+2026-04-15 17:19:07,669 | INFO | Severity Accuracy: 0.9079 | F1: 0.9078
+2026-04-15 17:19:07,679 | INFO | 
+Severity Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      4000
+           1       0.95      0.95      0.95      4000
+           2       0.85      0.85      0.85      4000
+           3       0.94      0.96      0.95      4000
+
+    accuracy                           0.91     16000
+   macro avg       0.91      0.91      0.91     16000
+weighted avg       0.91      0.91      0.91     16000
+
+2026-04-15 17:19:07,680 | INFO | Evaluation time: 44.67s
+Epoch 9 | Train Loss: 0.0598 | Val Loss: 0.5125 | Bin Acc: 0.9411 | Sev Acc: 0.9079 | Sev F1: 0.9078
