@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+pandas
+numpy
+scikit-learn
+matplotlib
+tqdm
+faster-whisper
+

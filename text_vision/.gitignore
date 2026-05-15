@@ -1,0 +1,8 @@
+__pycache__/
+models/__pycache__/
+data/*.csv
+data/*.pt
+checkpoints/*
+!checkpoints/.gitkeep
+reports/**
+!reports/.gitkeep
