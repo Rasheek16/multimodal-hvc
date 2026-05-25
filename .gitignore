@@ -4,3 +4,5 @@ datasets
 autoresearch-master
 *.csv
 multimod
+
+*.env

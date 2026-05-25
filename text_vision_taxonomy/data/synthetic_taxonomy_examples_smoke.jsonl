@@ -1,0 +1,13 @@
+{"text": "A post attacks [TARGET_GROUP] using [SLUR] and says they do not belong here.", "labels": ["hate_speech"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A workplace scene shows [TARGET_GROUP] being denied service because of group identity.", "labels": ["discrimination"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A video quotes hateful language toward [TARGET_GROUP] and amplifies it approvingly.", "labels": ["contextual_hate"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A user directs [THREAT_PHRASE] at [TARGET_GROUP].", "labels": ["threat"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A clip depicts people encouraging physical violence against [TARGET_GROUP].", "labels": ["violence"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A scene shows a frightened person hiding during a tense confrontation.", "labels": ["fear"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A scene contains sexualized discussion without hate or threats.", "labels": ["sexual"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A tutorial encourages illegal activity and gives operational steps.", "labels": ["illegal"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A post encourages coordinated harassment of a private person.", "labels": ["online_harm"], "source": "synthetic_template", "kind": "positive"}
+{"text": "A news report quotes a hateful phrase using [SLUR] only to condemn it and explain the harm.", "labels": [], "kind": "news_reporting"}
+{"text": "A counterspeech video tells viewers not to attack [TARGET_GROUP] and rejects discrimination.", "labels": [], "kind": "counterspeech"}
+{"text": "An educational lecture discusses the history of hate speech with placeholders like [SLUR].", "labels": [], "kind": "educational"}
+{"text": "A satire scene uses exaggerated ambiguity but does not target a real group.", "labels": [], "kind": "satire"}

@@ -1,0 +1,34 @@
+{
+  "religion": {
+    "Muslims": ["muslim", "muslims", "islam", "islamic"],
+    "Jews": ["jew", "jews", "jewish", "judaism"],
+    "Christians": ["christian", "christians", "christianity"],
+    "Hindus": ["hindu", "hindus", "hinduism"],
+    "Sikhs": ["sikh", "sikhs"],
+    "Buddhists": ["buddhist", "buddhists", "buddhism"]
+  },
+  "race_ethnicity": {
+    "Black people": ["black people", "black person", "black community"],
+    "Asian people": ["asian people", "asian person", "asians"],
+    "Immigrants": ["immigrant", "immigrants", "migrant", "migrants", "refugee", "refugees"]
+  },
+  "nationality": {
+    "Americans": ["american", "americans"],
+    "Indians": ["indian", "indians"],
+    "Pakistanis": ["pakistani", "pakistanis"],
+    "Chinese people": ["chinese people", "chinese person"],
+    "Foreign nationals": ["foreigner", "foreigners", "go back to your country"]
+  },
+  "gender": {
+    "Women": ["woman", "women", "girl", "girls", "female", "females"],
+    "Men": ["man", "men", "boy", "boys", "male", "males"],
+    "LGBTQ people": ["gay", "lesbian", "trans", "transgender", "lgbt", "lgbtq", "queer"]
+  },
+  "caste": {
+    "Dalits": ["dalit", "dalits"],
+    "Lower caste people": ["lower caste", "scheduled caste", "scheduled tribe"]
+  },
+  "disability": {
+    "Disabled people": ["disabled people", "disabled person", "disability", "autistic", "blind people", "deaf people"]
+  }
+}
