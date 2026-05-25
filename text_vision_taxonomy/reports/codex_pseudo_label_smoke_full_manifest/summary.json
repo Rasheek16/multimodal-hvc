@@ -1,0 +1,7 @@
+{
+  "rows": 1,
+  "auto_accept_rows": 0,
+  "review_queue_rows": 1,
+  "output_dir": "reports\\codex_pseudo_label_smoke_full_manifest",
+  "enriched_manifest": "data\\codex_multilabel_manifest_enriched_smoke_full_manifest.csv"
+}

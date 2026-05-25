@@ -1,0 +1,7 @@
+split,group,threshold,accuracy,f1,precision,recall,roc_auc,pr_auc,severity_accuracy_pseudo,severity_macro_f1_pseudo,n
+test,all,0.5,1.0,1.0,1.0,1.0,0.5,1.0,0.0,0.0,1
+test,missing,0.5,1.0,1.0,1.0,1.0,0.5,1.0,0.0,0.0,1
+train,all,0.5,1.0,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1
+train,human,0.5,1.0,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1
+val,all,0.5,1.0,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1
+val,missing,0.5,1.0,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1

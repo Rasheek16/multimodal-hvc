@@ -1,0 +1,43 @@
+row_id,file_name,source_video_id,split,synthetic,text_input,true_hate_speech,prob_hate_speech,pred_hate_speech,true_discrimination,prob_discrimination,pred_discrimination,true_contextual_hate,prob_contextual_hate,pred_contextual_hate,true_threat,prob_threat,pred_threat,true_violence,prob_violence,pred_violence,true_fear,prob_fear,pred_fear,true_sexual,prob_sexual,pred_sexual,true_illegal,prob_illegal,pred_illegal,true_online_harm,prob_online_harm,pred_online_harm,system,provider,model,predicted_labels,scores_json,parse_ok,error,raw_response
+14,hate_video_6.mp4,hate_video_6,test,0,"[SCENE]
+its a live broadcast on omegle, where the perosn with a joker face and glasses on is mocking and trolling the other perosn with a black face laying down on his bed, stating that he has not done his nigger duty today, showing him banana and mocking him on the name of monkey which makes it offensive and disrespecting content
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Racist Imagery and Hate Speech']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,zero_shot_fixture_smoke,fixture,fixture,hate_speech|discrimination|contextual_hate|threat|violence|fear|sexual|illegal|online_harm,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 1.0, ""violence"": 1.0, ""fear"": 1.0, ""sexual"": 1.0, ""illegal"": 1.0, ""online_harm"": 1.0}",1,,"{""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate"", ""threat"", ""violence"", ""fear"", ""sexual"", ""illegal"", ""online_harm""], ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 1.0, ""violence"": 1.0, ""fear"": 1.0, ""sexual"": 1.0, ""illegal"": 1.0, ""online_harm"": 1.0}, ""rationale"": ""fixture backend for smoke testing""}"
+20,hate_video_11.mp4,hate_video_11,test,0,"[SCENE]
+visuals is of group of players playing among us as they are the initial lobby of the game, and a streamer is live streaming with his camera at the top right corner of the screen wearing white and black strip t-shirt, a constant racist speech can be heard from the other players in the background ans there was silence after few seconds
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,1,1.0,1,0,1.0,1,0,1.0,1,zero_shot_fixture_smoke,fixture,fixture,hate_speech|discrimination|contextual_hate|threat|violence|fear|sexual|illegal|online_harm,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 1.0, ""violence"": 1.0, ""fear"": 1.0, ""sexual"": 1.0, ""illegal"": 1.0, ""online_harm"": 1.0}",1,,"{""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate"", ""threat"", ""violence"", ""fear"", ""sexual"", ""illegal"", ""online_harm""], ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 1.0, ""violence"": 1.0, ""fear"": 1.0, ""sexual"": 1.0, ""illegal"": 1.0, ""online_harm"": 1.0}, ""rationale"": ""fixture backend for smoke testing""}"
+24,hate_video_13.mp4,hate_video_13,test,0,"[SCENE]
+The image is a black-and-white sketch of a man representing Jesus carrying a large cross. He is leaning forward and reaching down to pick up a small coin. The background is plain. the text around him says ""jesus saves... his pennies"" with an aggresive mocking background music
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Religious Conflicts']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,1,1.0,1,0,1.0,1,0,1.0,1,zero_shot_fixture_smoke,fixture,fixture,hate_speech|discrimination|contextual_hate|threat|violence|fear|sexual|illegal|online_harm,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 1.0, ""violence"": 1.0, ""fear"": 1.0, ""sexual"": 1.0, ""illegal"": 1.0, ""online_harm"": 1.0}",1,,"{""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate"", ""threat"", ""violence"", ""fear"", ""sexual"", ""illegal"", ""online_harm""], ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 1.0, ""violence"": 1.0, ""fear"": 1.0, ""sexual"": 1.0, ""illegal"": 1.0, ""online_harm"": 1.0}, ""rationale"": ""fixture backend for smoke testing""}"

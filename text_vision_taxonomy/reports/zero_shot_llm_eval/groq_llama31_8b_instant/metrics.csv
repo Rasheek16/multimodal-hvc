@@ -1,0 +1,2 @@
+system,rows,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,neutral_false_positive_rate,rare_false_positive_count,rare_predicted_positive_count,rare_true_positive_count
+zero_shot_groq_llama31_8b_instant,154,0.5923566878980892,0.5344827586206896,0.5619335347432024,0.419289102757885,0.3724783734630933,0.3851450133070577,0.041666666666666664,11,12,5

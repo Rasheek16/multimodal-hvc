@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "system": "zero_shot_fixture_smoke",
+    "rows": 3,
+    "micro_precision": 0.18518518518518517,
+    "micro_recall": 1.0,
+    "micro_f1": 0.3125,
+    "macro_precision": 0.18518518518518517,
+    "macro_recall": 0.4444444444444444,
+    "macro_f1": 0.25555555555555554,
+    "neutral_false_positive_rate": 0.0,
+    "rare_false_positive_count": 9,
+    "rare_predicted_positive_count": 9,
+    "rare_true_positive_count": 0
+  },
+  "provider": "fixture",
+  "model": "fixture",
+  "rows": 3,
+  "eval_split": "test",
+  "thresholds": {
+    "hate_speech": 0.5,
+    "discrimination": 0.5,
+    "contextual_hate": 0.5,
+    "threat": 0.5,
+    "violence": 0.5,
+    "fear": 0.5,
+    "sexual": 0.5,
+    "illegal": 0.5,
+    "online_harm": 0.5
+  }
+}

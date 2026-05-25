@@ -1,0 +1,15 @@
+[
+  {
+    "system": "taxonomy_head_original",
+    "rows": 156,
+    "micro_precision": 1.0,
+    "micro_recall": 0.014925373134328358,
+    "micro_f1": 0.029411764705882353,
+    "macro_precision": 0.1111111111111111,
+    "macro_recall": 0.008888888888888889,
+    "macro_f1": 0.016460905349794237,
+    "neutral_false_positive_rate": 0.0,
+    "rare_label_precision": 0.0,
+    "rare_label_recall": 0.0
+  }
+]

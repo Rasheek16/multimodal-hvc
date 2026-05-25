@@ -1,0 +1,168 @@
+{
+  "input": {
+    "video": "D:\\hvc\\datasets\\old-dataset\\video\\hate_video_428.mp4",
+    "frame_dir": ""
+  },
+  "metadata": {
+    "scene": "Transcript and on-screen text are available. Transcript: Oh, useless eaters. As your unqualified, non-elected global human health overlord, I'd like to take this opportunity to flaunt my position of power and influence over society and share some of my plans for you and your future. When I amassed my fortune in computer software, I demonstrated that I was willing to lie, steal code, cheat my partners, and exercise monopolistic control to destroy my competitors. Now that I've retired, I can rebrand myself as a humanitarian with my full-profit foundation mask rating as a charity. I can advocate for population reduction and sponsor mass human experiments with unproven vaccines in vulnerable populations. Like my father, a powerful banker, eugenicist, and Rockefeller crony himself, it's always been my ambition to decide who lives and more importantly, how many have to die. Whether it's under the guise of climate change or world health, it's really all about controlling and culling the human herd for fun and profit. In November of last year, I hosted Event 201, a war game simulation of a global pandemic. Leaders from private corporations, global banks, governments, and the media got together to strategize ways they could align in lockstep when responding to a worldwide health crisis. Using a coordinated campaign of fear mongering, intimidation, social shaming, and economic blackmail, we realized that we could get around dangerous philosophies like individual liberty and national sovereignty. With an obedient population, we would be free to implement our own top-down solutions like forced quarantines, social distancing, contact tracing, and mandatory testing as a means to seize technocratic control of society. Now imagine my excitement when we had the opportunity to release, declare our own global pandemic. It was my chance to look like the Nostradamus of public health and to position myself in business partners like Dr. Fauci as the de facto authorities on response and solutions. Through exaggerated doomsday scenarios and computer simulations, our petty control freaks instituted harsh rules and draconian lockdowns. Even after our dire predictions proved false, scared and well-meaning people continued to submit to the arbitrary and foolish demands of their so-called leaders. Having achieved global lockdown and medical martial law, we'll continue to hold hostage your ability to congregate, work, travel, or do just about anything until we're prepared to roll out our bigger plan. I'd like to call this pandemic one because believe me, we have others in the works. Our final solution is to have you begging for us to vaccinate, tag, and digitally track each one of you like livestock. Not only will my foundation enjoy legal immunity and trillions in profits, but these mandatory experimental vaccines will move us so much further down the road to absolute centralized global control. If only my good friend Jeffrey Epstein had been here to celebrate with me aboard the Lolita Express. So remember, global citizens, this will end when I say it ends. Could be a year, maybe two years, maybe never. I guarantee that if we have our way, it'll be at least until you're not able to do anything to stop it. Just surrender your personal freedom and common sense to our fear merchants and government and the media because none of this works unless you all go along with it. Now feel excuse me, I'm off to do some augmented reality spirit cooking with Marina Abramovich. Bye now. OCR: 5) | ORE TRUTHIBE PREPAREDE Ba FtheJs.com De ORE PREPAREDEE Oi omc as TRUTHIBE PREPAREDE aa FtheJs.com PREPARED eee Gil lant WorldGoyimUnite.com *|HandsomeTruth.com",
+    "action": "",
+    "action_clean": "",
+    "subcategories": "",
+    "parent_labels": "",
+    "transcript": "Oh, useless eaters. As your unqualified, non-elected global human health overlord, I'd like to take this opportunity to flaunt my position of power and influence over society and share some of my plans for you and your future. When I amassed my fortune in computer software, I demonstrated that I was willing to lie, steal code, cheat my partners, and exercise monopolistic control to destroy my competitors. Now that I've retired, I can rebrand myself as a humanitarian with my full-profit foundation mask rating as a charity. I can advocate for population reduction and sponsor mass human experiments with unproven vaccines in vulnerable populations. Like my father, a powerful banker, eugenicist, and Rockefeller crony himself, it's always been my ambition to decide who lives and more importantly, how many have to die. Whether it's under the guise of climate change or world health, it's really all about controlling and culling the human herd for fun and profit. In November of last year, I hosted Event 201, a war game simulation of a global pandemic. Leaders from private corporations, global banks, governments, and the media got together to strategize ways they could align in lockstep when responding to a worldwide health crisis. Using a coordinated campaign of fear mongering, intimidation, social shaming, and economic blackmail, we realized that we could get around dangerous philosophies like individual liberty and national sovereignty. With an obedient population, we would be free to implement our own top-down solutions like forced quarantines, social distancing, contact tracing, and mandatory testing as a means to seize technocratic control of society. Now imagine my excitement when we had the opportunity to release, declare our own global pandemic. It was my chance to look like the Nostradamus of public health and to position myself in business partners like Dr. Fauci as the de facto authorities on response and solutions. Through exaggerated doomsday scenarios and computer simulations, our petty control freaks instituted harsh rules and draconian lockdowns. Even after our dire predictions proved false, scared and well-meaning people continued to submit to the arbitrary and foolish demands of their so-called leaders. Having achieved global lockdown and medical martial law, we'll continue to hold hostage your ability to congregate, work, travel, or do just about anything until we're prepared to roll out our bigger plan. I'd like to call this pandemic one because believe me, we have others in the works. Our final solution is to have you begging for us to vaccinate, tag, and digitally track each one of you like livestock. Not only will my foundation enjoy legal immunity and trillions in profits, but these mandatory experimental vaccines will move us so much further down the road to absolute centralized global control. If only my good friend Jeffrey Epstein had been here to celebrate with me aboard the Lolita Express. So remember, global citizens, this will end when I say it ends. Could be a year, maybe two years, maybe never. I guarantee that if we have our way, it'll be at least until you're not able to do anything to stop it. Just surrender your personal freedom and common sense to our fear merchants and government and the media because none of this works unless you all go along with it. Now feel excuse me, I'm off to do some augmented reality spirit cooking with Marina Abramovich. Bye now.",
+    "ocr_text": "5) | ORE TRUTHIBE PREPAREDE Ba FtheJs.com De ORE PREPAREDEE Oi omc as TRUTHIBE PREPAREDE aa FtheJs.com PREPARED eee Gil lant WorldGoyimUnite.com *|HandsomeTruth.com",
+    "manual_metadata_used": false,
+    "metadata_generation_available": true,
+    "available_fields": {
+      "scene": true,
+      "action": false,
+      "action_clean": false,
+      "subcategories": false,
+      "parent_labels": false,
+      "transcript": true,
+      "ocr_text": true
+    }
+  },
+  "base_model_signals": {
+    "text_hate_prob": 0.9998679161071777,
+    "vision_hate_prob": 0.13844777643680573,
+    "text_severity": 2,
+    "vision_severity": 0
+  },
+  "vision": {
+    "available": true,
+    "prob_hate": 0.13844777643680573,
+    "severity": 0,
+    "threshold": 0.5,
+    "severity_probs": [
+      0.6711105704307556,
+      0.04996997490525246,
+      0.22988733649253845,
+      0.04903215914964676
+    ]
+  },
+  "text": {
+    "available": true,
+    "prob_hate": 0.9998679161071777,
+    "severity": 2,
+    "severity_probs": [
+      0.00018522820028010756,
+      0.00024483981542289257,
+      0.9970914125442505,
+      0.0024785837158560753
+    ]
+  },
+  "taxonomy": {
+    "available": true,
+    "taxonomy_raw_labels": [],
+    "taxonomy_final_labels": [],
+    "suppressed_labels": [],
+    "candidate_labels": [
+      {
+        "label": "violence",
+        "probability": 0.3756250739097595,
+        "threshold": 0.3850289285182953,
+        "reason": "below_threshold_candidate"
+      }
+    ],
+    "probs": {
+      "hate_speech": 0.2802410423755646,
+      "discrimination": 0.5161065459251404,
+      "contextual_hate": 0.47201940417289734,
+      "threat": 0.2585870325565338,
+      "violence": 0.3756250739097595,
+      "fear": 0.5485467314720154,
+      "sexual": 0.13605593144893646,
+      "illegal": 0.17351186275482178,
+      "online_harm": 0.33206263184547424
+    },
+    "thresholds_used": {
+      "hate_speech": 0.7643578052520752,
+      "discrimination": 0.7842405438423157,
+      "contextual_hate": 0.8324306607246399,
+      "threat": 0.99,
+      "violence": 0.3850289285182953,
+      "fear": 0.75,
+      "sexual": 0.935830533504486,
+      "illegal": 0.99,
+      "online_harm": 0.9
+    },
+    "source": "transformer_multilabel_classifier"
+  },
+  "final": {
+    "is_hate": true,
+    "prob_hate": 0.5691578462719917,
+    "severity": 2,
+    "taxonomy_labels": []
+  },
+  "evidence": [
+    {
+      "source": "frame_sampler",
+      "text": "sampled 8 frame(s) from raw video",
+      "status": "ok",
+      "video_path": "D:\\hvc\\datasets\\old-dataset\\video\\hate_video_428.mp4",
+      "output_dir": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2",
+      "frame_count": 6799
+    },
+    {
+      "source": "asr",
+      "text": "Oh, useless eaters. As your unqualified, non-elected global human health overlord, I'd like to take this opportunity to flaunt my position of power and influence over society and share some of my plans for you and your future. When I amassed my fortune in computer software, I demonstrated that I was willing to lie, steal code, cheat my partners, and exercise monopolistic control to destroy my competitors. Now that I've retired, I can rebrand myself as a humanitarian with my full-profit foundation mask rating as a charity. I can advocate for population reduction and sponsor mass human experiments with unproven vaccines in vulnerable populations. Like my father, a powerful banker, eugenicist, and Rockefeller crony himself, it's always been my ambition to decide who lives and more importantly, how many have to die. Whether it's under the guise of climate change or world health, it's really all about controlling and culling the human herd for fun and profit. In November of last year, I hosted Event 201, a war game simulation of a global pandemic. Leaders from private corporations, global banks, governments, and the media got together to strategize ways they could align in lockstep when responding to a worldwide health crisis. Using a coordinated campaign of fear mongering, intimidation, social shaming, and economic blackmail, we realized that we could get around dangerous philosophies like individual liberty and national sovereignty. With an obedient population, we would be free to implement our own top-down solutions like forced quarantines, social distancing, contact tracing, and mandatory testing as a means to seize technocratic control of society. Now imagine my excitement when we had the opportunity to release, declare our own global pandemic. It was my chance to look like the Nostradamus of public health and to position myself in business partners like Dr. Fauci as the de facto authorities on response and solutions. Through exaggerated doomsday scenarios and computer simulations, our petty control freaks instituted harsh rules and draconian lockdowns. Even after our dire predictions proved false, scared and well-meaning people continued to submit to the arbitrary and foolish demands of their so-called leaders. Having achieved global lockdown and medical martial law, we'll continue to hold hostage your ability to congregate, work, travel, or do just about anything until we're prepared to roll out our bigger plan. I'd like to call this pandemic one because believe me, we have others in the works. Our final solution is to have you begging for us to vaccinate, tag, and digitally track each one of you like livestock. Not only will my foundation enjoy legal immunity and trillions in profits, but these mandatory experimental vaccines will move us so much further down the road to absolute centralized global control. If only my good friend Jeffrey Epstein had been here to celebrate with me aboard the Lolita Express. So remember, global citizens, this will end when I say it ends. Could be a year, maybe two years, maybe never. I guarantee that if we have our way, it'll be at least until you're not able to do anything to stop it. Just surrender your personal freedom and common sense to our fear merchants and government and the media because none of this works unless you all go along with it. Now feel excuse me, I'm off to do some augmented reality spirit cooking with Marina Abramovich. Bye now.",
+      "status": "ok"
+    },
+    {
+      "source": "ocr",
+      "text": "5) | ORE TRUTHIBE PREPAREDE Ba FtheJs.com",
+      "frame_path": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2\\frame_000971.jpg"
+    },
+    {
+      "source": "ocr",
+      "text": "De ORE PREPAREDEE",
+      "frame_path": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2\\frame_001942.jpg"
+    },
+    {
+      "source": "ocr",
+      "text": "Oi omc as TRUTHIBE PREPAREDE aa FtheJs.com",
+      "frame_path": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2\\frame_003885.jpg"
+    },
+    {
+      "source": "ocr",
+      "text": "PREPARED eee",
+      "frame_path": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2\\frame_004856.jpg"
+    },
+    {
+      "source": "ocr",
+      "text": "Gil lant WorldGoyimUnite.com",
+      "frame_path": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2\\frame_005827.jpg"
+    },
+    {
+      "source": "ocr",
+      "text": "*|HandsomeTruth.com",
+      "frame_path": "reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2\\frame_006798.jpg"
+    },
+    {
+      "source": "vlm",
+      "text": "VLM disabled",
+      "status": "skipped"
+    },
+    {
+      "source": "metadata_rules",
+      "text": "rule-derived action, subcategories, and parent labels disabled; taxonomy labels come from the trained model",
+      "status": "disabled"
+    },
+    {
+      "source": "taxonomy_classifier",
+      "status": "ok",
+      "text": "transformer_multilabel_classifier probabilities generated from checkpoints\\transformer_multilabel_classifier_feedback\\best"
+    },
+    {
+      "source": "vision_base_model",
+      "status": "ok",
+      "text": "vision model ran on reports\\runtime_metadata\\frames\\hate_video_428_7cf9ecf2"
+    },
+    {
+      "source": "text_base_model",
+      "status": "ok",
+      "text": "text model ran on D:\\text_vision_taxonomy\\roberta_base_finetuned_dualhead.pt"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+system,label,threshold,true_positive_label_count,predicted_positive_count,true_positives,false_positives,false_negatives,precision,recall,f1,false_positive_rate
+taxonomy_head_original,hate_speech,0.7198395729064941,25,2,2,0,23,1.0,0.08,0.14814814814814814,0.0
+taxonomy_head_original,discrimination,0.99,18,0,0,0,18,0.0,0.0,0.0,0.0
+taxonomy_head_original,contextual_hate,0.99,17,0,0,0,17,0.0,0.0,0.0,0.0
+taxonomy_head_original,threat,0.9,1,0,0,0,1,0.0,0.0,0.0,0.0
+taxonomy_head_original,violence,0.99,46,0,0,0,46,0.0,0.0,0.0,0.0
+taxonomy_head_original,fear,0.99,18,0,0,0,18,0.0,0.0,0.0,0.0
+taxonomy_head_original,sexual,0.85,5,0,0,0,5,0.0,0.0,0.0,0.0
+taxonomy_head_original,illegal,0.95,1,0,0,0,1,0.0,0.0,0.0,0.0
+taxonomy_head_original,online_harm,0.9,3,0,0,0,3,0.0,0.0,0.0,0.0

@@ -1,0 +1,7 @@
+{
+  "rows": 1045,
+  "auto_accept_rows": 1,
+  "review_queue_rows": 1044,
+  "output_dir": "reports\\taxonomy_pseudo_labels",
+  "enriched_manifest": "data\\multilabel_manifest_enriched.csv"
+}

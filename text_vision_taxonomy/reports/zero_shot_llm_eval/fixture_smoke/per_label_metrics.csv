@@ -1,0 +1,10 @@
+system,label,threshold,true_count,predicted_count,support,predicted_positive_count,true_positives,false_positives,false_negatives,precision,recall,f1
+zero_shot_fixture_smoke,hate_speech,0.5,1,3,1,3,1,2,0,0.3333333333333333,1.0,0.5
+zero_shot_fixture_smoke,discrimination,0.5,1,3,1,3,1,2,0,0.3333333333333333,1.0,0.5
+zero_shot_fixture_smoke,contextual_hate,0.5,1,3,1,3,1,2,0,0.3333333333333333,1.0,0.5
+zero_shot_fixture_smoke,threat,0.5,0,3,0,3,0,3,0,0.0,0.0,0.0
+zero_shot_fixture_smoke,violence,0.5,0,3,0,3,0,3,0,0.0,0.0,0.0
+zero_shot_fixture_smoke,fear,0.5,0,3,0,3,0,3,0,0.0,0.0,0.0
+zero_shot_fixture_smoke,sexual,0.5,2,3,2,3,2,1,0,0.6666666666666666,1.0,0.8
+zero_shot_fixture_smoke,illegal,0.5,0,3,0,3,0,3,0,0.0,0.0,0.0
+zero_shot_fixture_smoke,online_harm,0.5,0,3,0,3,0,3,0,0.0,0.0,0.0

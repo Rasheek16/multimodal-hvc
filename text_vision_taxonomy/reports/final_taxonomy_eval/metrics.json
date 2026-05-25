@@ -1,0 +1,41 @@
+[
+  {
+    "system": "taxonomy_head_original",
+    "rows": 156,
+    "micro_precision": 1.0,
+    "micro_recall": 0.014925373134328358,
+    "micro_f1": 0.029411764705882353,
+    "macro_precision": 0.1111111111111111,
+    "macro_recall": 0.008888888888888889,
+    "macro_f1": 0.016460905349794237,
+    "neutral_false_positive_rate": 0.0,
+    "rare_label_precision": 0.0,
+    "rare_label_recall": 0.0
+  },
+  {
+    "system": "text_only",
+    "rows": 156,
+    "micro_precision": 0.8613861386138614,
+    "micro_recall": 0.6492537313432836,
+    "micro_f1": 0.7404255319148936,
+    "macro_precision": 0.5863821138211383,
+    "macro_recall": 0.39990211865744685,
+    "macro_f1": 0.4614802183767701,
+    "neutral_false_positive_rate": 0.014925373134328358,
+    "rare_label_precision": 0.0,
+    "rare_label_recall": 0.0
+  },
+  {
+    "system": "ensemble",
+    "rows": 156,
+    "micro_precision": 0.8571428571428571,
+    "micro_recall": 0.582089552238806,
+    "micro_f1": 0.6933333333333334,
+    "macro_precision": 0.4593915343915344,
+    "macro_recall": 0.31598055002999587,
+    "macro_f1": 0.37056058739015707,
+    "neutral_false_positive_rate": 0.0,
+    "rare_label_precision": 0.0,
+    "rare_label_recall": 0.0
+  }
+]

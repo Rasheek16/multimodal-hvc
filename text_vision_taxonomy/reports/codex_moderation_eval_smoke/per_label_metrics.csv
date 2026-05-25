@@ -1,0 +1,10 @@
+label,threshold,support,predicted_positive_count,true_positives,false_positives,false_negatives,precision,recall,f1,ap,auroc
+hate_speech,0.5499999999999999,0,1,0,1,0,0.0,0.0,0.0,0.0,
+discrimination,0.65,0,0,0,0,0,0.0,0.0,0.0,0.0,
+contextual_hate,0.3,0,2,0,2,0,0.0,0.0,0.0,0.0,
+threat,0.35,0,2,0,2,0,0.0,0.0,0.0,0.0,
+violence,0.5499999999999999,0,0,0,0,0,0.0,0.0,0.0,0.0,
+fear,0.05,0,2,0,2,0,0.0,0.0,0.0,0.0,
+sexual,0.44999999999999996,0,1,0,1,0,0.0,0.0,0.0,0.0,
+illegal,0.49999999999999994,0,0,0,0,0,0.0,0.0,0.0,0.0,
+online_harm,0.6,0,0,0,0,0,0.0,0.0,0.0,0.0,

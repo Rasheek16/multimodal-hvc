@@ -1,0 +1,2 @@
+system,rows,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,neutral_false_positive_rate,rare_false_positive_count,rare_predicted_positive_count,rare_true_positive_count
+zero_shot_fixture_smoke,3,0.18518518518518517,1.0,0.3125,0.18518518518518517,0.4444444444444444,0.25555555555555554,0.0,9,9,0

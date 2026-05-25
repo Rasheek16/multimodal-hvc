@@ -1,0 +1,58 @@
+{
+  "auto_counts_by_issue_type": {
+    "suspected_false_negative_label": 30,
+    "suspected_false_positive_label": 40
+  },
+  "auto_thresholds": {
+    "auto_fn_min_prob": 0.9,
+    "auto_fp_max_prob": 0.1,
+    "extreme_fn_min_prob": 0.95,
+    "extreme_fp_max_prob": 0.05,
+    "teacher_hate_min_prob": 0.75,
+    "teacher_min_confidence": 0.55,
+    "teacher_nonhate_max_prob": 0.25
+  },
+  "checkpoint": "E:\\m-hvc\\multimodal-hvc\\text_vision\\checkpoints\\best_frame_text_vision_finetuned.pt",
+  "counts_by_issue_type": {
+    "suspected_false_negative_label": 144,
+    "suspected_false_positive_label": 91
+  },
+  "counts_by_old_new_label": {
+    "0|1": 144,
+    "1|0": 91
+  },
+  "counts_by_teacher_agreement": {
+    "disagree_or_weak": 30,
+    "strong_agree": 128,
+    "unavailable": 77
+  },
+  "counts_by_transcript_source": {
+    "asr": 174,
+    "human": 28,
+    "missing": 33
+  },
+  "generated_predictions": false,
+  "manifest": "E:\\m-hvc\\multimodal-hvc\\text_vision\\data\\multimodal_manifest.csv",
+  "num_auto_relabel": 70,
+  "num_manifest_rows": 9845,
+  "num_review": 165,
+  "num_split_manifest_rows": 6894,
+  "num_split_videos_with_predictions": 2295,
+  "num_suspicious": 235,
+  "output_files": {
+    "audit_summary": "E:\\m-hvc\\multimodal-hvc\\text_vision\\reports\\label_audit\\audit_summary.json",
+    "auto_relabel_overrides": "E:\\m-hvc\\multimodal-hvc\\text_vision\\reports\\label_audit\\auto_relabel_overrides.csv",
+    "multimodal_manifest_auto_relabel": "E:\\m-hvc\\multimodal-hvc\\text_vision\\reports\\label_audit\\multimodal_manifest_auto_relabel.csv",
+    "review_queue": "E:\\m-hvc\\multimodal-hvc\\text_vision\\reports\\label_audit\\review_queue.csv",
+    "suspected_label_issues": "E:\\m-hvc\\multimodal-hvc\\text_vision\\reports\\label_audit\\suspected_label_issues.csv"
+  },
+  "predictions": "E:\\m-hvc\\multimodal-hvc\\text_vision\\reports\\frame_text_vision\\predictions.csv",
+  "review_counts_by_issue_type": {
+    "suspected_false_negative_label": 114,
+    "suspected_false_positive_label": 51
+  },
+  "split": "train",
+  "teacher_summary": "E:\\m-hvc\\multimodal-hvc\\text_vision\\data\\text_teacher_cache.csv",
+  "threshold": 0.32,
+  "threshold_source": "checkpoint"
+}

@@ -1,0 +1,2 @@
+micro_f1,macro_f1,micro_precision,micro_recall,macro_map,train_rows,eval_rows
+0.35555555555555557,0.3222222222222222,0.21621621621621623,1.0,0.3611111111111111,62,7

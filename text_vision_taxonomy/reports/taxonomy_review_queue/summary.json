@@ -1,0 +1,16 @@
+{
+  "rows": 156,
+  "review_rows": 156,
+  "auto_accept_rows": 0,
+  "reason_counts": {
+    "prob_hate high but no taxonomy label": 88,
+    "labels suppressed by guardrails": 156,
+    "video/text disagree on violence": 79,
+    "video/text disagree on hate_speech": 48,
+    "video/text disagree on discrimination": 39,
+    "video/text disagree on fear": 100,
+    "video/text disagree on contextual_hate": 13,
+    "many labels predicted for one segment": 1,
+    "video/text disagree on sexual": 2
+  }
+}

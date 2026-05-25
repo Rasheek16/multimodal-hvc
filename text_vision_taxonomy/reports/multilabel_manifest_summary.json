@@ -1,0 +1,130 @@
+{
+  "input": "D:\\hvc\\datasets\\action\\archieve\\final_dataset.csv",
+  "output": "data\\multilabel_manifest.csv",
+  "total_input_rows": 1060,
+  "total_rows": 1045,
+  "dropped_rows": 15,
+  "dropped_examples": [
+    {
+      "row_index": 36,
+      "reason": "end_sec <= start_sec",
+      "File Name": "hate_video_16.mp4"
+    },
+    {
+      "row_index": 38,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 51,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 101,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 217,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 273,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 290,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 293,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 302,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 313,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 324,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 395,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 473,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 821,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    },
+    {
+      "row_index": 977,
+      "reason": "missing File Name/Start Time/End Time",
+      "File Name": ""
+    }
+  ],
+  "split_counts": {
+    "val": 156,
+    "train": 735,
+    "test": 154
+  },
+  "taxonomy_label_counts": {
+    "tax_hate_speech": 210,
+    "tax_discrimination": 208,
+    "tax_contextual_hate": 151,
+    "tax_threat": 17,
+    "tax_violence": 251,
+    "tax_fear": 115,
+    "tax_sexual": 101,
+    "tax_illegal": 8,
+    "tax_online_harm": 14
+  },
+  "binary_label_counts": {
+    "0": 509,
+    "1": 536
+  },
+  "pseudo_severity_counts": {
+    "0": 371,
+    "2": 269,
+    "3": 259,
+    "1": 146
+  },
+  "label_parse_source_counts": {
+    "literal_eval": 1045
+  },
+  "source_video_count": 670,
+  "split_leakage_source_ids": {},
+  "frame_dir_exists_rows": 490,
+  "segment_frame_dir_rows": 490,
+  "video_path_exists_rows": 949,
+  "taxonomy_labels": [
+    "hate_speech",
+    "discrimination",
+    "contextual_hate",
+    "threat",
+    "violence",
+    "fear",
+    "sexual",
+    "illegal",
+    "online_harm"
+  ],
+  "neutral_is_bce_label": false
+}

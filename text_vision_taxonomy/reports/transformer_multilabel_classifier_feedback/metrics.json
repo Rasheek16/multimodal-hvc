@@ -1,0 +1,47 @@
+{
+  "best_model": {
+    "model_name": "roberta-base",
+    "slug": "roberta-base",
+    "score": 1.2256335735875377,
+    "output_dir": "checkpoints\\transformer_multilabel_classifier_feedback\\roberta-base",
+    "report_dir": "reports\\transformer_multilabel_classifier_feedback\\roberta-base",
+    "metrics": {
+      "system": "roberta-base",
+      "rows": 310,
+      "micro_precision": 0.9379562043795621,
+      "micro_recall": 0.8344155844155844,
+      "micro_f1": 0.8831615120274914,
+      "macro_precision": 0.6295277729274587,
+      "macro_recall": 0.5652887080154275,
+      "macro_f1": 0.5917090466563535,
+      "neutral_false_positive_rate": 0.034782608695652174,
+      "rare_false_positive_count": 0,
+      "rare_predicted_positive_count": 0,
+      "rare_true_positive_count": 10
+    }
+  },
+  "models": [
+    {
+      "model_name": "roberta-base",
+      "slug": "roberta-base",
+      "score": 1.2256335735875377,
+      "output_dir": "checkpoints\\transformer_multilabel_classifier_feedback\\roberta-base",
+      "report_dir": "reports\\transformer_multilabel_classifier_feedback\\roberta-base",
+      "metrics": {
+        "system": "roberta-base",
+        "rows": 310,
+        "micro_precision": 0.9379562043795621,
+        "micro_recall": 0.8344155844155844,
+        "micro_f1": 0.8831615120274914,
+        "macro_precision": 0.6295277729274587,
+        "macro_recall": 0.5652887080154275,
+        "macro_f1": 0.5917090466563535,
+        "neutral_false_positive_rate": 0.034782608695652174,
+        "rare_false_positive_count": 0,
+        "rare_predicted_positive_count": 0,
+        "rare_true_positive_count": 10
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,10 @@
+system,label,threshold,true_count,predicted_count,support,predicted_positive_count,true_positives,false_positives,false_negatives,precision,recall,f1
+transformer_multilabel_classifier,hate_speech,0.6307926177978516,25,25,25,25,24,1,1,0.96,0.96,0.96
+transformer_multilabel_classifier,discrimination,0.6764433979988098,18,18,18,18,17,1,1,0.9444444444444444,0.9444444444444444,0.9444444444444444
+transformer_multilabel_classifier,contextual_hate,0.4975359737873077,17,17,17,17,16,1,1,0.9411764705882353,0.9411764705882353,0.9411764705882353
+transformer_multilabel_classifier,threat,0.99,1,0,1,0,0,0,1,0.0,0.0,0.0
+transformer_multilabel_classifier,violence,0.5856112837791443,46,46,46,46,43,3,3,0.9347826086956522,0.9347826086956522,0.9347826086956522
+transformer_multilabel_classifier,fear,0.75,18,12,18,12,12,0,6,1.0,0.6666666666666666,0.8
+transformer_multilabel_classifier,sexual,0.9194736480712892,5,5,5,5,5,0,0,1.0,1.0,1.0
+transformer_multilabel_classifier,illegal,0.95,1,0,1,0,0,0,1,0.0,0.0,0.0
+transformer_multilabel_classifier,online_harm,0.9,3,0,3,0,0,0,3,0.0,0.0,0.0

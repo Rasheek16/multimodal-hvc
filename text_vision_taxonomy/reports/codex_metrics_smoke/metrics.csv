@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,val_micro_f1,val_macro_f1,val_samples_f1,val_micro_precision,val_macro_precision,val_samples_precision,val_micro_recall,val_macro_recall,val_samples_recall,val_micro_map,val_macro_map,val_micro_auroc,val_macro_auroc,val_subset_accuracy,val_hamming_loss
+1,0.820780336856842,0.747744619846344,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,1.0

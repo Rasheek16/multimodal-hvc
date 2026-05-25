@@ -1,0 +1,32 @@
+{
+  "metrics": [
+    {
+      "system": "transformer_only",
+      "rows": 154,
+      "micro_precision": 0.8609625668449198,
+      "micro_recall": 0.9252873563218391,
+      "micro_f1": 0.8919667590027701,
+      "macro_precision": 0.8030519650084869,
+      "macro_recall": 0.7205543015729773,
+      "macro_f1": 0.7279403111750136,
+      "neutral_false_positive_rate": 0.08333333333333333,
+      "rare_false_positive_count": 0,
+      "rare_predicted_positive_count": 2,
+      "rare_true_positive_count": 5
+    },
+    {
+      "system": "transformer_calibrated",
+      "rows": 154,
+      "micro_precision": 0.9146341463414634,
+      "micro_recall": 0.8620689655172413,
+      "micro_f1": 0.8875739644970414,
+      "macro_precision": 0.6084847787746338,
+      "macro_recall": 0.5896659285793411,
+      "macro_f1": 0.5970087748197179,
+      "neutral_false_positive_rate": 0.08333333333333333,
+      "rare_false_positive_count": 0,
+      "rare_predicted_positive_count": 0,
+      "rare_true_positive_count": 5
+    }
+  ]
+}

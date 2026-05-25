@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "system": "zero_shot_groq_llama33_70b_versatile",
+    "rows": 154,
+    "micro_precision": 0.6291390728476821,
+    "micro_recall": 0.5459770114942529,
+    "micro_f1": 0.5846153846153846,
+    "macro_precision": 0.4590812890812891,
+    "macro_recall": 0.33424127145689114,
+    "macro_f1": 0.3534470378431731,
+    "neutral_false_positive_rate": 0.020833333333333332,
+    "rare_false_positive_count": 4,
+    "rare_predicted_positive_count": 4,
+    "rare_true_positive_count": 5
+  },
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "rows": 154,
+  "eval_split": "test",
+  "thresholds": {
+    "hate_speech": 0.5,
+    "discrimination": 0.5,
+    "contextual_hate": 0.5,
+    "threat": 0.5,
+    "violence": 0.5,
+    "fear": 0.5,
+    "sexual": 0.5,
+    "illegal": 0.5,
+    "online_harm": 0.5
+  }
+}

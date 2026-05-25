@@ -1,0 +1,82 @@
+{
+  "production_thresholds": {
+    "hate_speech": 0.58056137112902,
+    "discrimination": 0.767658509872492,
+    "contextual_hate": 0.6452198324456206,
+    "threat": 0.9,
+    "violence": 0.3747323970542906,
+    "fear": 0.5102785970513204,
+    "sexual": 0.85,
+    "illegal": 0.95,
+    "online_harm": 0.9
+  },
+  "thresholds_by_mode": {
+    "f1_optimal": {
+      "hate_speech": 0.6000000000000001,
+      "discrimination": 0.5900000000000001,
+      "contextual_hate": 0.5338331398738374,
+      "threat": 0.13,
+      "violence": 0.4162902653826188,
+      "fear": 0.5,
+      "sexual": 0.25,
+      "illegal": 0.21000000000000002,
+      "online_harm": 0.2
+    },
+    "precision_target_70": {
+      "hate_speech": 0.540974752932375,
+      "discrimination": 0.655002012863552,
+      "contextual_hate": 0.5677687759284469,
+      "threat": 0.99,
+      "violence": 0.33780201226885637,
+      "fear": 0.5102785970513204,
+      "sexual": 0.5014824893996446,
+      "illegal": 0.33658156479593715,
+      "online_harm": 0.47999982202243985
+    },
+    "precision_target_80": {
+      "hate_speech": 0.5672156262289748,
+      "discrimination": 0.767658509872492,
+      "contextual_hate": 0.6452198324456206,
+      "threat": 0.99,
+      "violence": 0.3747323970542906,
+      "fear": 0.5102785970513204,
+      "sexual": 0.5014824893996446,
+      "illegal": 0.33658156479593715,
+      "online_harm": 0.47999982202243985
+    },
+    "precision_target_90": {
+      "hate_speech": 0.6576442104250358,
+      "discrimination": 0.8427939823477211,
+      "contextual_hate": 0.7872930832329493,
+      "threat": 0.99,
+      "violence": 0.38429567826092875,
+      "fear": 0.5250646051418283,
+      "sexual": 0.5014824893996446,
+      "illegal": 0.33658156479593715,
+      "online_harm": 0.47999982202243985
+    },
+    "top_k_by_prevalence": {
+      "hate_speech": 0.58056137112902,
+      "discrimination": 0.6402110003733863,
+      "contextual_hate": 0.6301442091873611,
+      "threat": 0.2292140485959664,
+      "violence": 0.36565353768584086,
+      "fear": 0.4449964338133747,
+      "sexual": 0.5014824893996446,
+      "illegal": 0.33658156479593715,
+      "online_harm": 0.47999982202243985
+    },
+    "production": {
+      "hate_speech": 0.58056137112902,
+      "discrimination": 0.767658509872492,
+      "contextual_hate": 0.6452198324456206,
+      "threat": 0.9,
+      "violence": 0.3747323970542906,
+      "fear": 0.5102785970513204,
+      "sexual": 0.85,
+      "illegal": 0.95,
+      "online_harm": 0.9
+    }
+  },
+  "production_mode": "precision_target_80_or_top_k_with_rare_overrides"
+}

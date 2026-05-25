@@ -1,0 +1,2 @@
+system,output_dir,rows,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,neutral_false_positive_rate,rare_false_positive_count,rare_predicted_positive_count,rare_true_positive_count
+text_multilabel_classifier,reports\multilabel_calibration,156,0.8504672897196262,0.6791044776119403,0.7551867219917012,0.7009308774014656,0.5116320924505069,0.5639961220759058,0.029850746268656716,0,2,5

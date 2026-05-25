@@ -1,0 +1,14 @@
+{
+  "system": "text_multilabel_classifier",
+  "rows": 156,
+  "micro_precision": 0.8504672897196262,
+  "micro_recall": 0.6791044776119403,
+  "micro_f1": 0.7551867219917012,
+  "macro_precision": 0.7009308774014656,
+  "macro_recall": 0.5116320924505069,
+  "macro_f1": 0.5639961220759058,
+  "neutral_false_positive_rate": 0.029850746268656716,
+  "rare_false_positive_count": 0,
+  "rare_predicted_positive_count": 2,
+  "rare_true_positive_count": 5
+}

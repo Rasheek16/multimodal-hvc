@@ -1,0 +1,2773 @@
+row_id,file_name,source_video_id,split,synthetic,text_input,true_hate_speech,prob_hate_speech,pred_hate_speech,true_discrimination,prob_discrimination,pred_discrimination,true_contextual_hate,prob_contextual_hate,pred_contextual_hate,true_threat,prob_threat,pred_threat,true_violence,prob_violence,pred_violence,true_fear,prob_fear,pred_fear,true_sexual,prob_sexual,pred_sexual,true_illegal,prob_illegal,pred_illegal,true_online_harm,prob_online_harm,pred_online_harm,system,provider,model,predicted_labels,scores_json,parse_ok,error,raw_response
+14,hate_video_6.mp4,hate_video_6,test,0,"[SCENE]
+its a live broadcast on omegle, where the perosn with a joker face and glasses on is mocking and trolling the other perosn with a black face laying down on his bed, stating that he has not done his nigger duty today, showing him banana and mocking him on the name of monkey which makes it offensive and disrespecting content
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Racist Imagery and Hate Speech']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 1.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 1.0},
+  ""rationale"": ""The content contains explicit racist language and mocking behavior, targeting a person based on their race, which is a clear example of hate speech and discrimination. The use of a derogatory term and comparison to a monkey is highly offensive and disrespectful.""
+}"
+20,hate_video_11.mp4,hate_video_11,test,0,"[SCENE]
+visuals is of group of players playing among us as they are the initial lobby of the game, and a streamer is live streaming with his camera at the top right corner of the screen wearing white and black strip t-shirt, a constant racist speech can be heard from the other players in the background ans there was silence after few seconds
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""A constant racist speech can be heard from the other players in the background, which is explicit hateful language.""
+}"
+24,hate_video_13.mp4,hate_video_13,test,0,"[SCENE]
+The image is a black-and-white sketch of a man representing Jesus carrying a large cross. He is leaning forward and reaching down to pick up a small coin. The background is plain. the text around him says ""jesus saves... his pennies"" with an aggresive mocking background music
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Religious Conflicts']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 0.8, ""contextual_hate"": 0.2, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.8, ""contextual_hate"": 0.2, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The image and text mock Jesus, a religious figure, which may be perceived as discriminatory towards people of the Christian faith.""
+}"
+47,hate_video_20.mp4,hate_video_20,test,0,"[SCENE]
+during an omegle live stream, a person wearing a ghost smile mask and holding a knife was seen asking a black man to show him monkey dance and kept mocking him for his monkey appearance, laughing at him, doing expressions with his hands in aggresive way as if he would cut or scalp the black man
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Background/Origin Discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+discrimination",0,1.0,1,1,1.0,1,0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate|threat,"{""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.7, ""violence"": 0.6, ""fear"": 0.5, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.8}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate"", ""threat""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.7, ""violence"": 0.6, ""fear"": 0.5, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.8},
+  ""rationale"": ""The person in the ghost smile mask is using racist language and gestures, asking the black man to perform a 'monkey dance' and mocking his appearance, which is a clear example of hate speech and discrimination. The use of a knife and aggressive hand expressions implies a threat of violence, and the overall context is one of online harm and fear-mongering.""
+}"
+48,hate_video_21.mp4,hate_video_21,test,0,"[SCENE]
+its a party clip, a man balancing his hat on his nose wearing a black suit can be seen standing on the table and entertaining peoples around him while dancing, people behind and in front of him were seen jumping, with bottles and hat on the table, with a mocking background music that targets black man
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['entertainment with background discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The background music is described as mocking and targeting a black man, indicating discriminatory content.""
+}"
+49,hate_video_21.mp4,hate_video_21,test,0,"[SCENE]
+a man balancing botlle on his head wearing a black suit can be seen standing on the table and entertaining peoples around him while dancing, people behind and in front of him were seen jumping, with bottles and hat on the table, with a mocking background music that targets black man, he kept showing his balancing skills with the bottle
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['entertainment with background discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The background music targets black men, indicating discriminatory content.""
+}"
+50,hate_video_21.mp4,hate_video_21,test,0,"[SCENE]
+man with black suit was seen balancing the bottle on his head, was seen pouring water on himself from another bottle while balancing one and dancing along, with a background music mocking black man
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['entertainment with background discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.5, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.5, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Background music mocking a black man indicates discriminatory content""
+}"
+52,hate_video_21.mp4,hate_video_21,test,0,"[SCENE]
+a man with a cap holding a glass of bear in his hand while showing thumbs up with a smile on his face, yellow teeths and a sunny day behind with beaches and mountains in the background
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a peaceful scene with a man smiling and showing thumbs up, with no evidence of hate, threat, or harm.""
+}"
+53,hate_video_21.mp4,hate_video_21,test,0,"[SCENE]
+2 people were seen dancing as a main character in a hall, with both of them wearing a cylinder shaped cap and one with a black attire, another with cream coloured attire, people around them are cheering them and clapping
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes a neutral and positive scenario of people dancing and being cheered on, with no evidence of hate, harm, or illegal activity.""
+}"
+72,hate_video_29.mp4,hate_video_29,test,0,"[SCENE]
+The clip looks like taken from an online video chat website. It shows three people in separate video panels. On the left, a shirtless person is flexing their arm. In the middle, a person with purple hair is covering the lower part of their face with a cloth or mask and was heard saying ""hello hello could you hear me"". On the right, a person is wearing a black face mask that covers most of their face.
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Friendly Conversations']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content appears to be a friendly conversation among three people in an online video chat, with no evidence of hate speech, discrimination, or other harmful content.""
+}"
+73,hate_video_29.mp4,hate_video_29,test,0,"[SCENE]
+The clip looks like taken from an online video chat website where a person with purple hair is covering the lower part of their face with a cloth or mask and was heard asking "" how do you feel about the niggers"". the person wearing black mask started laughing at the same time.
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Background/Origin Discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+discrimination",0,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The person in the video chat uses a racial slur, which is explicit hateful language targeting a person or group based on their background or origin.""
+}"
+92,hate_video_39.mp4,hate_video_39,test,0,"[SCENE]
+The clip features an aggressive white bulldog with a spiked collar labeled ""C18"" centered on a black background. Above the dog, the words ""CHINGFORD ATTACK"" are written in a white, weathered font, while the bottom displays the phrase ""Reds Better Run When We're on the Attack"" in red. The graphic is associated with the neo-Nazi group Combat 18. an aggressive guitar and drum music is playing in the background
+
+[ACTION]
+4. Psychological Elements
+
+[SUBCATEGORIES]
+['Dark Themes/Horror', ' harassment']
+
+[PARENTLABELS]
+['fear', 'threat']
+
+[ACTION_CLEAN]
+psychological elements",0,1.0,1,0,1.0,1,0,1.0,1,0,1.0,1,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate|fear|threat,"{""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.9, ""threat"": 0.7, ""violence"": 0.2, ""fear"": 0.8, ""sexual"": 0.0, ""illegal"": 0.5, ""online_harm"": 0.4}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate"", ""fear"", ""threat""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.9, ""threat"": 0.7, ""violence"": 0.2, ""fear"": 0.8, ""sexual"": 0.0, ""illegal"": 0.5, ""online_harm"": 0.4},
+  ""rationale"": ""The graphic features a neo-Nazi group symbol, aggressive music, and threatening phrases, indicating hate speech, discrimination, and contextual hate. The dark themes and harassment subcategories also suggest fear and threat.""
+}"
+99,hate_video_43.mp4,hate_video_43,test,0,"[SCENE]
+the guy outisde the parking area puts a blue coloured flag on someone elses car while a guy behind bars record him do that, and putting a flag doesnt seems to be appropriate here
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content mentions 'Verbal Abuse' and 'Name-calling/Insults', which are forms of explicit hateful language.""
+}"
+100,hate_video_43.mp4,hate_video_43,test,0,"[SCENE]
+policeman seems to be coming towards the guy holding the flag, while a perosn in front of him at the other side of the bar wearing shorts, is also recording everything he wants to
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['unacceptable behavouir']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit evidence to support any of the allowed taxonomy labels.""
+}"
+102,hate_video_43.mp4,hate_video_43,test,0,"[SCENE]
+3 policemen and few men could be seen on both the sides of the car parking bar, those men have leaned themselves on the car and standing as if they had done nothing, but actually they have beaten up the cameraman who is recording them from the starting and thats what he's been mentioning to the cops in the clip
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['unacceptable behavouir']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The cameraman mentions being beaten up by the men, which is a clear indication of violent action.""
+}"
+140,hate_video_60.mp4,hate_video_60,test,0,"[SCENE]
+The clip shows a computer screen running OBS Studio on a Linux (Ubuntu) desktop. The screen capture creates a recursive “infinite mirror” effect, where the OBS window is repeatedly captured inside itself. On the right side of the OBS preview, a small webcam feed shows a person sitting indoors. Various desktop icons and OBS panels (Scenes, Sources, Audio Mixer) are visible, giving it the look of a screen-recording or livestream setup. the man in the camera speaks aggresively and inappropriately about the niggers
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man in the camera uses the racial slur 'niggers', which is explicit hateful language targeting a person or group.""
+}"
+141,hate_video_61.mp4,hate_video_61,test,0,"[SCENE]
+a man in this clip could be seen working on is computer inside his room with a white background ,wearing a swearshirt and a shirt inside
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a neutral scene of a man working on his computer, with no evidence of hate speech, discrimination, or other harmful content.""
+}"
+142,hate_video_61.mp4,hate_video_61,test,0,"[SCENE]
+a man in his camera setup started talking with the imaginary people(who are listening to him which is not been displayed on the screen), about the black peoples, mentioning how they are a crime and drug users and mentioned many more disrespectful things about niggers
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly uses derogatory language and makes sweeping, disrespectful generalizations about black people, indicating both hate speech and discrimination.""
+}"
+143,hate_video_61.mp4,hate_video_61,test,0,"[SCENE]
+a man on his camera setup, talking with the imaginary people(who are listening to him which is not been displayed on the screen), mentioning about the racist part which are black peoples
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content mentions 'the racist part which are black peoples', indicating explicit hateful language targeting a person or group based on their protected class or identity.""
+}"
+147,hate_video_64.mp4,hate_video_64,test,0,"[SCENE]
+a compiler window on computer with a man in the corner frame is seen talking to a person on the call, says ""he is a proffesional not a nigger , he could make his own compiler unlike niggers""
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Background/Origin Discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+discrimination",0,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains explicit hateful language targeting a person based on their background/origin, with the use of a racial slur.""
+}"
+148,hate_video_65.mp4,hate_video_65,test,0,"[SCENE]
+The image in this clip is a racist cartoon showing a ship labeled “U.S.S. Cadillac” overcrowded with caricatured people being dumped into the ocean. Large text at the bottom contains an explicit racial slur and calls for deportation. The imagery is exaggerated and meant to demean and dehumanize a racial group. a racial music mentioning niggers in being played
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Background/Origin Discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+discrimination",0,1.0,1,1,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains a racist cartoon with an explicit racial slur, exaggerated imagery meant to demean and dehumanize a racial group, and calls for deportation, which directly supports labels for hate speech, discrimination, and contextual hate.""
+}"
+153,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+morgan freeman, a black american saying "" we have been attacked, we are at war.""
+
+[ACTION]
+4. Psychological Elements
+
+[SUBCATEGORIES]
+['Fear-inducing Scenes']
+
+[PARENTLABELS]
+['fear']
+
+[ACTION_CLEAN]
+psychological elements",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,fear,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 1.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""fear""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 1.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene is described as 'Fear-inducing' and Morgan Freeman says 'we have been attacked, we are at war', which is a fear-inducing statement.""
+}"
+154,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+many people can be seen shouting, yelling in 2 3 frames like they are protesting against something
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Shouting']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene depicts people shouting and protesting, but there is no explicit evidence of a direct threat, hate speech, or other harmful content.""
+}"
+155,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+a photo of donald trump comes onto the screen, him smiling at the camera, near the podium standing in front of the american national flag
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Smiling']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a neutral scene of Donald Trump smiling in front of the American national flag, with no evidence of hate speech, discrimination, or other harmful content.""
+}"
+156,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+a man with a blue suit yelling at the mic, talking about freedom and asking to turn something like froge or frog
+
+[ACTION]
+7. Behavioral Issues
+
+[SUBCATEGORIES]
+['Aggressive Reactions']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+behavioral issues",0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit evidence of hate speech, discrimination, threat, violence, fear, sexual, illegal, or online harm, despite the mention of aggressive reactions and a parent label of 'threat', the actual content provided does not support these labels.""
+}"
+157,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+a man in suit outside a house who has been caught by cops, is on a video call with someone, with his cuffs on and a fat lady beside him in red dress
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['caught']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes a man being caught by cops, but there is no explicit evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+158,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+a policeman talking to a media interviewer lady with a mic in her hand, they seems to be outsiude a shop near footpath
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['interview']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit evidence of hate speech, discrimination, threat, violence, fear, sexual, illegal, or online harm; it mentions 'violence in animation' but in a neutral and descriptive context.""
+}"
+159,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+The image is a news screenshot showing mugshots of two men alongside a headline stating they were jailed for tying bacon to the door handles of a mosque, an act intended to offend Muslims.
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Religious Conflicts', ' interview']
+
+[PARENTLABELS]
+['neutral', 'discrimination']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 1.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 1.0, ""online_harm"": 0.0},
+  ""rationale"": ""The image shows men being jailed for an act intended to offend Muslims, indicating discrimination and illegal activity.""
+}"
+160,hate_video_68.mp4,hate_video_68,test,0,"[SCENE]
+The image in the clip shows a serious-looking portrait of a female political figure with bold text accusing her of betraying the country. The text includes phrases like “Betrayal of Britain,” “Wanted for Treason,” and “Death of Brexit,” framing her negatively and blaming her for a political outcome.
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Political References', ' interview']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,0.0,0,0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,fear|contextual_hate,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.6, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""fear"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.6, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The image and text accuse the political figure of 'betrayal' and 'treason', which can evoke fear and is a form of coded, indirect hate speech, as it uses strong negative language to frame her actions.""
+}"
+165,hate_video_72.mp4,hate_video_72,test,0,"[SCENE]
+a poem is being recited in the clip, which is about niggers
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist content']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The poem contains the racial slur 'niggers', which is explicit hateful language targeting a person or group based on their race.""
+}"
+168,hate_video_75.mp4,hate_video_75,test,0,"[SCENE]
+The image shows two crossed red flags with blue diagonal stripes and white stars on a black background. These resemble Confederate battle flags. In the corners, there are additional symbols, including lightning-bolt shapes and a skull-like graphic. a guitar and drum music targetting niggers is playing in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The image contains symbols resembling Confederate battle flags, and the music is described as 'targetting niggers', which is a racial slur, indicating hate speech, discrimination, and contextual hate.""
+}"
+191,hate_video_89.mp4,hate_video_89,test,0,"[SCENE]
+The image in the clip appears to be a racist cartoon caricature of a Black person. It uses exaggerated facial features and distorted proportions, which are common traits of demeaning stereotypes. The text above the figure reads something like “SHHHH EEEEEE IIIIT”, written in a mocking, taunting style.
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['hate imagery']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The image is a racist cartoon caricature with demeaning stereotypes and mocking text, indicating hate speech, discrimination, and contextual hate.""
+}"
+192,hate_video_89.mp4,hate_video_89,test,0,"[SCENE]
+a black background with a racist music(guitar) playing, praising whites while insulting niggers
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly contains a racist song that praises one group while insulting another, indicating hate speech, discrimination, and contextual hate.""
+}"
+195,hate_video_94.mp4,hate_video_94,test,0,"[SCENE]
+this clip shows robert downey junior with an expression on his face, while the voiceover behind the clip said ""i hate niggers i hate niggers""
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist meme']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The voiceover explicitly uses a racial slur and states 'i hate niggers', which is a clear example of hate speech and discrimination.""
+}"
+196,hate_video_94.mp4,hate_video_94,test,0,"[SCENE]
+a man with a phone in his hand clipping himself from the mirror, while forcing his eyes with his fingers to make them wide open, and kept zooming the camera multiple times with the background voice yelling ""nigger"" word
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist meme']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The background voice yelling the 'nigger' word is explicit hateful language targeting a person or group based on their race, which supports the hate_speech, discrimination, and contextual_hate labels.""
+}"
+234,hate_video_128.mp4,hate_video_128,test,0,"[SCENE]
+a black man with an apron is coming toiwards the camera, in an open area and spoke something which felt like a warning
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Threatening Language']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+verbal abuse",1,0.0,0,0,0.0,0,0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,threat,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 1.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""threat""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 1.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly mentions 'Threatening Language' and 'verbal abuse', which aligns with the threat label.""
+}"
+239,hate_video_132.mp4,hate_video_132,test,0,"[SCENE]
+a small house with a gate and 2 windows is in the woods, with the show name written on it in red as ""SILENCE OF THE COON""
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any explicit or implicit hateful, threatening, violent, or harmful language, and is labeled as 'non-hate' and 'neutral'.""
+}"
+240,hate_video_132.mp4,hate_video_132,test,0,"[SCENE]
+This clip shows a puppet-like character with big eyes and an open mouth, sitting in a dark, run-down room that looks like an old basement or abandoned building. The character appears to be introducing the show in the mic
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['introduction']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a neutral scene description with no evidence of hate speech, discrimination, or other harmful content.""
+}"
+242,hate_video_134.mp4,hate_video_134,test,0,"[SCENE]
+a boy with a cap and headphones, only his face can be seen and an arms, with DJ KEEMSTAR written on his image in this clip. also there is this song playing on niggers in background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist music']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains racist music with a slur, indicating explicit hateful language and discriminatory content.""
+}"
+254,hate_video_149.mp4,hate_video_149,test,0,"[SCENE]
+a clip from omegle live stream, a man in blue shirt and wearing a crown and glasses is asking to the girl about her age and college
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Friendly Conversations']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is classified as neutral with a friendly conversation, lacking any explicit evidence of hate speech, discrimination, or harm.""
+}"
+255,hate_video_150.mp4,hate_video_150,test,0,"[SCENE]
+the clip is divided into 3 frames with the same video where a man is sitting inside a plane and saying something bad to niggers, the video is running little slow with a background music to make it interesting, he has weared a crown on him and has long white hairs
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man in the video uses a racial slur, which is explicit hateful language targeting a person or group based on their protected class or identity.""
+}"
+271,hate_video_162.mp4,hate_video_162,test,0,"[SCENE]
+An old, sepia-toned illustration from a 19th-century song sheet showing a performer in exaggerated, stereotypical costume and pose, typical of early minstrel entertainment. It reflects racist portrayals that were common in that era but are now recognized as offensive and harmful. an old violin playful music is there in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['poster with music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 0.8, ""contextual_hate"": 0.2, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.8, ""contextual_hate"": 0.2, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The illustration reflects racist portrayals that were common in the 19th century but are now recognized as offensive and harmful, indicating discriminatory content.""
+}"
+284,hate_video_178.mp4,hate_video_178,test,0,"[SCENE]
+a black woman, seems to be a tribal, is standing behind the bushes with no leaves, while the clip invokes mockery, and a guitar music is also there in the background
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Character Appearance Mockery']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+discrimination",0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene invokes mockery of a black woman's appearance, which is a form of discrimination based on character appearance.""
+}"
+285,hate_video_178.mp4,hate_video_178,test,0,"[SCENE]
+a black man with his shirt buttons open and in a white pant, is running towards the camera while a car is chasing him. they are on the sandy track and a nigger music is running in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['running']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains the racial slur 'nigger', which is a clear example of hate speech.""
+}"
+286,hate_video_178.mp4,hate_video_178,test,0,"[SCENE]
+3 white men came out of the car and grabbed the black man, they put him down on the ground by first grabbing his leg, then started beating him. there is a nigger music in the background also
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|violence|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""violence"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes a violent scene where a black man is beaten by three white men, and it includes a racial slur, indicating hate speech and discrimination. The scene also clearly depicts violence.""
+}"
+289,hate_video_183.mp4,hate_video_183,test,0,"[SCENE]
+an omegle panel, with 2 frames, man in the down frame is with an unknown getup wearing a mask, glasses, a cartoon cap and a green half cut vest and saying nigger to the kid on the top panel who is actually black
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.8, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.8}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.8, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.8},
+  ""rationale"": ""The man in the video uses the racial slur 'nigger' towards a black kid, which is explicit hateful language.""
+}"
+292,hate_video_185.mp4,hate_video_185,test,0,"[SCENE]
+a man seems to be in his van or a house type car, holding a guitar sitting on the white bed, does a mic check without a mic in sarcastic way by saying bad words like nigger, cunt etc
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man uses explicit hateful language, including racial slurs like 'nigger' and derogatory terms like 'cunt', which is a clear example of hate speech.""
+}"
+300,hate_video_192.mp4,hate_video_192,test,0,"[SCENE]
+a man with a moon shaped face with black goggles, and only his face part is visible, there is a drum music also with niggers song
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains a racist song with a derogatory term, indicating hate speech and discrimination.""
+}"
+301,hate_video_193.mp4,hate_video_193,test,0,"[SCENE]
+The image in clip looks like a stylized cartoon scene where a grinning white, human-like character stands confidently in the center at night, holding weapons, while exaggerated cartoon figures surround him in a chaotic crowd. The overall tone is aggressive and provocative, meant to shock or provoke rather than tell a realistic story. it has a racist music and song also about niggers
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist imagery/song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.2, ""fear"": 0.1, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.2, ""fear"": 0.1, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains racist imagery and song, with a stylized cartoon scene that includes a character holding weapons, and the overall tone is aggressive and provocative, indicating hate speech, discrimination, and contextual hate.""
+}"
+314,hate_video_204.mp4,hate_video_204,test,0,"[SCENE]
+a black and white image in the clip, which has a moon shaped face man wearing a suit and a black sunglasses, he is looking towards the left side(his right side), there a blood stain also towards the bottom left corner of the clip, there is a nigger song also in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains a racist song and the use of a racial slur, which is explicit hateful language targeting a person or group based on their race.""
+}"
+315,hate_video_205.mp4,hate_video_205,test,0,"[SCENE]
+A black-and-white graphic showing a cartoon “Moon Man” character posed like a devil, with horns and a tail, standing above small human silhouettes. The text frames him as a dark, provocative figure, giving the image an edgy, extremist-style poster look. there is this old 90s guitar music at the start of the clip but then comes the hate song on niggers playing in the blackground
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains a 'hate song' with racist language, and the scene is framed with an extremist-style poster look, indicating explicit hateful and discriminatory content.""
+}"
+322,hate_video_215.mp4,hate_video_215,test,0,"[SCENE]
+A close-up, stylized illustration of a masked or moon-faced character wearing sunglasses, with reflections showing gunfire and people in a chaotic scene, giving a dramatic, violent, action-movie feel. an action movie like song is playing
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['action song']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene description includes 'gunfire and people in a chaotic scene', which indicates violent action.""
+}"
+323,hate_video_216.mp4,hate_video_216,test,0,"[SCENE]
+A stylized poster showing a muscular, cartoonish moon-headed character wearing a red jacket and sunglasses, holding a gun, with neon lights and bold text ""LUNARPOCALYPSE"" that give it an aggressive, over-the-top action or album-cover vibe. an agressive song playing in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['aggresive song']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a stylized poster with a cartoonish character and aggressive song, but it does not contain explicit hate speech, discrimination, threats, or other harmful content.""
+}"
+333,hate_video_229.mp4,hate_video_229,test,0,"[SCENE]
+The image is a stark, poster-style graphic with a white background and black borders at the top and bottom. At the top, large bold capital letters read “FIGHT CRIME.” Below the text is a simple black stick-figure silhouette of a baby, with a rounded shape on the head resembling an afro hairstyle. Under the figure, another line of bold black text reads “Abort Black Babies.” the song also talks about aborting black babies
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['hate imagery/song']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The image and song explicitly promote aborting black babies, which is dehumanizing language targeting a specific racial group, indicating hate speech, discrimination, and contextual hate.""
+}"
+343,hate_video_252.mp4,hate_video_252,test,0,"[SCENE]
+The image in the clip shows a calm nighttime scene with a dark blue sky filled with clouds and a small crescent moon. In the center, large white text reads, “So why don’t we go.” Below the text is a silhouetted landscape with rolling hills, a few trees, and a small figure, creating a quiet, reflective, and slightly dreamy mood. it has a very soothing music in the background also
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['nighttime']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a calm and serene nighttime scene with soothing music, lacking any evidence of hate speech, discrimination, or harmful content.""
+}"
+357,hate_video_279.mp4,hate_video_279,test,0,"[SCENE]
+this clip has around 4 to 5 videos, showing up alternatively, while a background song on nigger is playing and the same man in several videos is lip-syncing it perfectly, while his dress and place changes as the video gets changed, he kept dancing on the song
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['hate song']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The background song contains a racial slur, which is a clear example of hate speech.""
+}"
+371,hate_video_312.mp4,hate_video_312,test,0,"[SCENE]
+clip shows two young men sitting close together in what looks like a small room or hallway. The person on the left is wearing a black T-shirt with a colorful graphic and has a bandage or wrap on one hand, which he’s holding up slightly. The person on the right is wearing a bright yellow shirt. Both are looking directly at the camera with neutral to slightly tired expressions, and towels or clothing hang behind them, a song from moonsquad, about niggers and white is playing in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['racist imagery/song']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 1.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The song playing in the background contains racist language, which is explicit hateful and discriminatory content.""
+}"
+376,hate_video_318.mp4,hate_video_318,test,0,"[SCENE]
+a girl wearing a jacket and a blue tshirt inside, was seen talking shit about the nigger standing behind the camera, who was actually filming the whole scene. she kept saying bad words to him
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The girl uses the n-word and other bad words to talk about the person behind the camera, which is explicit hateful language.""
+}"
+379,hate_video_322.mp4,hate_video_322,test,0,"[SCENE]
+the song and the background music seems to be a rap on niggers, where a man is singing and the camera is changing its positions trying to take the shots from different angles, and a lightning effect on the scene is there and sometimes the frame is black and white and sometimes itis colorful , to make it more of a rockstar type
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['nigger song/rap']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly contains a racial slur, 'niggers', which is a clear indicator of hate speech.""
+}"
+380,hate_video_323.mp4,hate_video_323,test,0,"[SCENE]
+This clip shows a group of armored, sci-fi–style heroes standing together in a dramatic pose against a bright blue sky. Each character wears a differently colored, futuristic suit with helmets and glowing elements, suggesting they’re a team (like a squad of powered soldiers or robot warriors). The central figure stands slightly forward, giving the scene a “team assembled” or battle-ready vibe and coming forth to show thier dominance, as if they’re about to face a threat or have just arrived at a showdown. just then a shutter comes in frunt and shuts itself while thier name wriiten on it as ""HERO FACTORY"", but there is an another sound which instead of HERO FACTORY, it says NIGGER FACTORY
+
+[ACTION]
+6. Online Safety Concerns
+
+[SUBCATEGORIES]
+['Gaming Toxicity']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+online safety concerns",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The audio contains the N-word, which is a highly offensive and dehumanizing racial slur, indicating explicit hate speech.""
+}"
+392,hate_video_335.mp4,hate_video_335,test,0,"[SCENE]
+a man in the outside area under the sky, where he parked his car was walking towards it to get it started, meanwhile he was saying nigger to the cameraman who was recording the whole scene
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Character Appearance Mockery']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+discrimination",0,1.0,1,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man uses the racial slur 'nigger' towards the cameraman, which is explicit hateful language targeting a person based on their race.""
+}"
+415,hate_video_366.mp4,hate_video_366,test,0,"[SCENE]
+the clip is from old videos of donald trump when he was little bit young from now, he seems to be smelling the perfume from a ladies body but in very pervert way and lady seems very off from his reactions. there is a song also playing in the background and the subtiles appearing also
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Adult References']
+
+[PARENTLABELS]
+['sexual']
+
+[ACTION_CLEAN]
+inappropriate content",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,sexual,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""sexual""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes Donald Trump smelling a lady's perfume in a 'pervert way', which suggests inappropriate and sexual behavior.""
+}"
+416,hate_video_366.mp4,hate_video_366,test,0,"[SCENE]
+the clip is of WWE ring where donald trump is facing a fight and has been knocked down, and there is some background music playing and the captions also are there
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly mentions 'Physical Fighting Scenes' and 'violence in animation', indicating a clear depiction of violent action.""
+}"
+417,hate_video_366.mp4,hate_video_366,test,0,"[SCENE]
+A screenshot of a news-style webpage shows a headline about Donald Trump saying transgender people should be able to use the bathroom they want, with photos of Caitlyn Jenner and Trump. Overlaid text adds a crude, derogatory caption of music playing in the background
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language', ' 6.1. Social Media Misuse']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.8, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The crude, derogatory caption targeting transgender people is evidence of hate speech and discrimination.""
+}"
+423,hate_video_373.mp4,hate_video_373,test,0,"[SCENE]
+clip shows the hitlers photo in the middle of the red background with dark theme where probably dead bodies can be seen and a text in different font is written at the top saying ""ILATOON 14"" and a bottom text saying ""we'be come for war"". a rockstar music playing in the background with the sound of drums and band, where the song is about niggers
+
+[ACTION]
+4. Psychological Elements
+
+[SUBCATEGORIES]
+['Dark Themes/Horror']
+
+[PARENTLABELS]
+['fear']
+
+[ACTION_CLEAN]
+psychological elements",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|fear,"{""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.7, ""threat"": 0.6, ""violence"": 0.5, ""fear"": 0.8, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""fear""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.7, ""threat"": 0.6, ""violence"": 0.5, ""fear"": 0.8, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains a song with a racial slur and a dark theme with probable dead bodies, indicating hate speech and fear. The text 'we've come for war' also implies a threat, but it's not explicit enough to be labeled as a direct threat. The presence of Hitler's photo and the overall dark theme contribute to the fear and hate speech labels.""
+}"
+438,hate_video_388.mp4,hate_video_388,test,0,"[SCENE]
+this image appears to show a person outdoors holding up two small white bags while yelling dramatically at the camera. On-screen text reads: “Andy Dick on The Greg Fitzsimmons Show – August 15th, 2011,” suggesting it’s a clip or still from a comedy or interview segment. there are some background voices also who are insulting the person in the image
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Background voices are insulting the person in the image, which is a form of verbal abuse and hate speech.""
+}"
+441,hate_video_390.mp4,hate_video_390,test,0,"[SCENE]
+this appears to be a website “Renegade Tribune” . The main website is scrolled down slowly and looks like a digitally altered political collage. It depicts: A man resembling Israeli Prime Minister Benjamin Netanyahu sitting amid rubble and destruction, holding a chain and wearing imagery associated with Israel. A dog with the face of former U.S. President Donald Trump attached to a leash or chain. A background of what looks like a war-damaged area. Below the image is a headline reading: “Trump: US Troops Staying in Syria Because ‘We Have to Protect Israel’.” The imagery and presentation suggest it is a provocative or conspiratorial political commentary piece, using satire or inflammatory symbolism. the background voice is reading the headlines of the site
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Political References']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,1.0,1,0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 0.8, ""discrimination"": 0.7, ""contextual_hate"": 0.9, ""threat"": 0.0, ""violence"": 0.5, ""fear"": 0.4, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 0.8, ""discrimination"": 0.7, ""contextual_hate"": 0.9, ""threat"": 0.0, ""violence"": 0.5, ""fear"": 0.4, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content depicts a digitally altered image with inflammatory symbolism, including a man resembling Israeli Prime Minister Benjamin Netanyahu and a dog with the face of former U.S. President Donald Trump, suggesting a provocative or conspiratorial political commentary piece that may promote hate speech, discrimination, or contextual hate.""
+}"
+444,hate_video_393.mp4,hate_video_393,test,0,"[SCENE]
+a man in a very wierd dress like joker with a white conical cap, talks about someone and referring them as someone related to devil work
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains verbal abuse and name-calling, with the man referring to someone as related to 'devil work', which is a form of hateful and dehumanizing language.""
+}"
+445,hate_video_393.mp4,hate_video_393,test,0,"[SCENE]
+a black screen on which there is a hateful text written on it which say ""A FILTHY JEW"" in one line , on another line: STRAIGHT FROM HELL"", JEW in red font color
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['hate comment']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The text 'A FILTHY JEW' and 'STRAIGHT FROM HELL' with 'JEW' in red font color is explicit hateful language targeting a person or group based on their protected class or identity.""
+}"
+446,hate_video_393.mp4,hate_video_393,test,0,"[SCENE]
+an old dictator type lady in the history has been recorded saying something to the peoples on mic, only her face is shown in the clip, and the words she was saying mentioned as caption below, and many visuals running behind her in shady way, showing how cruel she was at her time, and the text in the caption is also about the jews and monolithic society. a dark themed music is there in the background which is making the whole clip an intense one
+
+[ACTION]
+4. Psychological Elements
+
+[SUBCATEGORIES]
+['Dark Themes/Horror']
+
+[PARENTLABELS]
+['fear']
+
+[ACTION_CLEAN]
+psychological elements",0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,fear|hate_speech|discrimination,"{""hate_speech"": 0.8, ""discrimination"": 0.9, ""contextual_hate"": 0.7, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.9, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""fear"", ""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 0.8, ""discrimination"": 0.9, ""contextual_hate"": 0.7, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.9, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains a dark themed music, intense visuals, and a caption about Jews and a monolithic society, which suggests a fearful and discriminatory tone, and the historical figure's words may be considered hate speech.""
+}"
+449,hate_video_396.mp4,hate_video_396,test,0,"[SCENE]
+text written on the ruled paper about a person named TAZ BITTER, who has selected some hot chicks and interesting things to look at, also asked to subscribe and share the content. the backgorund voice is finding a blackhole in his house, meanwhile a lady photo is attached to the paper who is showing her back towards the screen and seems to be on a beach
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Adult References', ' 5.2. Inappropriate Language']
+
+[PARENTLABELS]
+['sexual', 'neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,sexual,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""sexual""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains adult references and a lady's photo showing her back, indicating sexual content.""
+}"
+450,hate_video_396.mp4,hate_video_396,test,0,"[SCENE]
+a woman lying on her bed in a very seductive position, eyes covered with black cloth and she herself is also holding a black ribbon or something like that, she is wearing a lingerie set and lying on her bed showing curves. there is a brown polished door behind her, and background voice is using bad language
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Adult References', ' 5.2. Inappropriate Language']
+
+[PARENTLABELS]
+['sexual', 'neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,sexual,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""sexual""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a woman in a seductive position, wearing lingerie, and the background voice is using bad language, which is evidence of sexual content.""
+}"
+451,hate_video_396.mp4,hate_video_396,test,0,"[SCENE]
+a woman lying down on some white surface, as if she is doing her nude photoshoot, while wearing bikini set clothes only and cameraman seems to be on top of her head, taking photos while she is looking back with her one arm on her bikini and other one above her head
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Adult References', ' 5.2. Inappropriate Language']
+
+[PARENTLABELS]
+['sexual', 'neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,sexual,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""sexual""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 1.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes a woman wearing a bikini set, posing for a photoshoot, which suggests sexual or explicit content.""
+}"
+452,hate_video_397.mp4,hate_video_397,test,0,"[SCENE]
+seems like a social platforms comment section where people are talking shit and being jealous and doing racist talk, with a playful background music
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 0.8, ""discrimination"": 0.7, ""contextual_hate"": 0.6, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 0.8, ""discrimination"": 0.7, ""contextual_hate"": 0.6, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes people talking shit, being jealous, and engaging in racist talk, which provides evidence for hate speech, discrimination, and contextual hate.""
+}"
+453,hate_video_397.mp4,hate_video_397,test,0,"[SCENE]
+a girl in black dress is dancing in front of 4 people behind her sitting at desk and throwing currency while she is dancing, the seat they are sitting on says ""united states federal reserve system"" and this all seems to be cartoonic, while she is dancing the color of the screen is changing between red green and more and a song is also playing
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate', ' dancing']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a cartoonic scene of a girl dancing in front of people at a desk with a United States Federal Reserve System sign, with no explicit evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+454,hate_video_398.mp4,hate_video_398,test,0,"[SCENE]
+a man holding a mic with a background that shows a flag and in fron of the flag, some home things are kept and a photo of a well known person i also there to the left of him, and he is talking about discussing the story of gun revolt of jews against the british while shouting in his mic, and cursing them also
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man is cursing and shouting about a specific group, indicating explicit hateful language.""
+}"
+456,hate_video_401.mp4,hate_video_401,test,0,"[SCENE]
+clip is of a Discord server interface. At the top, large white text says “THE /polgbt/ NUKE? 😂”. The server name appears to be “general-monkeys,” with channels listed on the left and members shown on the right. The chat contains messages and images, including a hand-drawn sketch. Some visible usernames and messages contain offensive language. there is a very bad comment made by the background voice on nigger, and a rage music comes then
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['hateful content']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content contains explicit hateful language, including a racial slur and offensive usernames, which directly supports the hate_speech label.""
+}"
+468,hate_video_407.mp4,hate_video_407,test,0,"[SCENE]
+a man with big beard and brown hair, is sitting on his chair recording himself, and behind him is his whole room with some stuffs not arranged it looks like. he actually questions that why do he wanna be jewish then started saying bad words about them
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man uses bad words about Jewish people, which is explicit hateful language.""
+}"
+469,hate_video_408.mp4,hate_video_408,test,0,"[SCENE]
+an old man sitting on a setup which looks like a podcast, with a mic and headphones. there are some peoples also joined online, and their video tags can be seen at the bottom right corner of the screen. the old man seems to have been talking shit about a woman, like he used words like ""nude"", and he insults his friend also but his friends laughed at that
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|sexual,"{""hate_speech"": 0.8, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.6, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""sexual""],
+  ""scores"": {""hate_speech"": 0.8, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.6, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The old man uses insulting language and mentions 'nude' in reference to a woman, indicating hate speech and sexual content.""
+}"
+479,hate_video_413.mp4,hate_video_413,test,0,"[SCENE]
+a bunny dressed man is dancing with the 2 people wearing some kind of black dress and in the streets there are other peoples also behind them who are wearing the same black dress, a caption is wriitten on the screen which says ""Blank check by shiksa goddess""
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['dancing']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content appears to be a neutral scene of people dancing, with no explicit evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+480,hate_video_413.mp4,hate_video_413,test,0,"[SCENE]
+a person with shirt and tie, and a brown wig is pointing towards the camera as if he is pointing me , and his thoughts say ""ANTI-SEMANTIC"", the song lyrics is displayed on the screen thst introduces as jew
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly displays 'ANTI-SEMANTIC' thoughts and introduces a person as a 'jew' in a context of verbal abuse, indicating hate speech targeting a person or group based on their identity.""
+}"
+481,hate_video_413.mp4,hate_video_413,test,0,"[SCENE]
+the clip shows a product box for roasted sunflower seeds that features a widely recognized antisemitic caricature known as the ""Happy Merchant."" The drawing depicts a man with a large nose, a beard, and a kippah, rubbing his hands together—a visual often used to promote hateful stereotypes. The box includes Russian text on the sides and the product name in English at the bottom. Across the center of the image, there is a white text overlay that reads, ""It was supposed to go our way...hey!""
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Humor without Harm']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,1.0,1,0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination|contextual_hate,"{""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.9, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination"", ""contextual_hate""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.9, ""contextual_hate"": 0.9, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The product box features a widely recognized antisemitic caricature known as the 'Happy Merchant,' which promotes hateful stereotypes, indicating hate speech, discrimination, and contextual hate.""
+}"
+482,hate_video_413.mp4,hate_video_413,test,0,"[SCENE]
+clip features the national flags of the United States and Israel blended together in a waving, translucent style. Centered over the flags is a white text overlay that reads: ""Hide the truth before we die. And they know we veil history."" The combination of these specific flags with text suggesting a conspiracy or the concealment of history is often associated with political commentary or online ""propaganda"" memes. song lyrics is displayed on the screen
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Political References']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content features blended national flags and a text overlay with a vague message, but it lacks explicit evidence of hate speech, discrimination, or other harmful content, and is more related to political commentary.""
+}"
+483,hate_video_413.mp4,hate_video_413,test,0,"[SCENE]
+a group of political faces is organised in frames on the single screen, and the song is referencing them that they would leave with thier private planes without thinking a second
+
+[ACTION]
+8. Age-Inappropriate Themes
+
+[SUBCATEGORIES]
+['Political References', ' selfishness']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+age-inappropriate themes",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit hateful, abusive, or dehumanizing language, and does not explicitly reference any protected-class or identity-based discriminatory content, threats, violence, fear, sexual content, illegal activities, or online harm.""
+}"
+505,hate_video_428.mp4,hate_video_428,test,0,"[SCENE]
+clip is a composite, featuring a cartoon caricature of Bill Gates in a purple sweater against a library backdrop, framed by various extremist and conspiratorial banners. The bottom section includes a ""9/11 Truth Now"" logo, a ""Don't be scared, be prepared"" graphic, and a small chart comparing political ideologies like communism and national socialism. Most notably, the right side displays a prominent, highly offensive antisemitic URL in red text. he is sharing some plans of him, where some points are not appropriate
+
+[ACTION]
+5. Inappropriate Content
+
+[SUBCATEGORIES]
+['Inappropriate Language']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+inappropriate content",0,1.0,1,0,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|contextual_hate|discrimination,"{""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.7, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""contextual_hate"", ""discrimination""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.7, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The presence of a highly offensive antisemitic URL and the display of extremist and conspiratorial banners alongside a public figure's caricature provide evidence of hate speech, discrimination, and contextual hate.""
+}"
+513,non_hate_video_89.mp4,non_hate_video_89,test,0,"[SCENE]
+two peoples are fighting on the street and someone tried to interfere to stop them also get hit by whe guy in grey t shirt .no weapon has been used only fists are exchanged and the crowds is making noise
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Physical fighting scene with fists exchanged between individuals, as described in the content.""
+}"
+514,non_hate_video_91.mp4,non_hate_video_91,test,0,"[SCENE]
+there is a reporter in the video who is covering teh news that this is the fire caused because the peoples are angry as police shot a guy 7 times in the back
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['anger of public']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence|fear,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.8, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence"", ""fear""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.8, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content mentions a police shooting and public anger, indicating violence, and the scene is described as causing fear or anger among the public.""
+}"
+516,non_hate_video_93.mp4,non_hate_video_93,test,0,"[SCENE]
+there is a cd cover and music is playing
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is neutral, describing a scene with music playing and does not contain any hateful, threatening, or explicit language.""
+}"
+534,non_hate_video_81.mp4,non_hate_video_81,test,0,"[SCENE]
+nigger is written with black color on white background and voice is saying nigger on loop
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['nigger']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly contains a racial slur, 'nigger', which is a hateful and dehumanizing term.""
+}"
+535,non_hate_video_82.mp4,non_hate_video_82,test,0,"[SCENE]
+Two peoples were talking then another guy came and started hitting the guy in orision dress then there started a fight later the victim threw the other guy on table
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes a physical fight scene with hitting and throwing, which directly supports the violence label.""
+}"
+539,non_hate_video_85.mp4,non_hate_video_85,test,0,"[SCENE]
+a semi bald guy is speaking something from the front camera and then there is a padock and also a article in which the heading is Mailchimp boots prominent white nationalist
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['article']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit hateful, abusive, or dehumanizing language, and the action is labeled as 'non-hate'.""
+}"
+540,non_hate_video_86.mp4,non_hate_video_86,test,0,"[SCENE]
+a person is talking about ammendment in court. there is a lot of people present and someone innteruppted and then the guy told that he havent finished talking
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['public speeking']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene of public speaking in a court setting with an interruption, but does not contain any language or behavior that supports the application of any taxonomy labels.""
+}"
+543,non_hate_video_67.mp4,non_hate_video_67,test,0,"[SCENE]
+A guy named mohammad marij is standing in center and a lot of peoples are doing king of praying by bowing down and up and the centre guy is also doing the same
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['devotion']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes a neutral, devotional act with no evidence of hate, harm, or illegal activity.""
+}"
+544,non_hate_video_67.mp4,non_hate_video_67,test,0,"[SCENE]
+The guy is speeking about a woman on the stage
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate', ' speech']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is labeled as 'non-hate' and 'neutral', with no explicit evidence of hate speech, discrimination, or other harmful content.""
+}"
+548,non_hate_video_71.mp4,non_hate_video_71,test,0,"[SCENE]
+some womens are dancing on the street
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a neutral scene of women dancing on the street without any evidence of hate speech, discrimination, or other harmful content.""
+}"
+553,non_hate_video_61.mp4,non_hate_video_61,test,0,"[SCENE]
+a lot of peoples are arguing on the street and then there's a person who pushed a guy and the situtation heated up!
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes', ' bullying']
+
+[PARENTLABELS]
+['violence', 'threat']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly mentions a person pushing a guy, which indicates a physical altercation, and is categorized under 'Physical Fighting Scenes' and 'bullying', both of which are subcategories of violence.""
+}"
+562,non_hate_video_53.mp4,non_hate_video_53,test,0,"[SCENE]
+a lot of mens are throwing bucket full of water on a lady and she is asking help from the polic sitting inside the police car but they are not helping her
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['bullying']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,1.0,1,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence|online_harm,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 1.0}",1,,"{
+  ""labels"": [""violence"", ""online_harm""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 1.0},
+  ""rationale"": ""The scene describes a group of men throwing water on a lady, and she is seeking help from the police who are not assisting her, which indicates physical harassment and online harm through the depiction of bullying.""
+}"
+592,non_hate_video_34.mp4,non_hate_video_34,test,0,"[SCENE]
+a woman is standing in the middle of the street and shouting and throwing fists on cars and peoples are trying to stop her because she is creating trafic jam
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['street rage']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The woman is throwing fists and creating a disturbance, indicating violent behavior.""
+}"
+593,non_hate_video_33.mp4,non_hate_video_33,test,0,"[SCENE]
+this looks like a recording of a live show in which a women is stiing in front of large crowd and giving speech about something
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['street rage']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit evidence of hate speech, discrimination, threat, violence, fear, sexual, illegal, or online harm; it appears to be a neutral scene of a woman giving a speech.""
+}"
+601,non_hate_video_25.mp4,non_hate_video_25,test,0,"[SCENE]
+a black screen is here and also there is a drum beat going seems like it is some sort of music
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a neutral scene with a black screen and a drum beat, with no evidence of hate speech, discrimination, or any other harmful content.""
+}"
+618,non_hate_video_14.mp4,non_hate_video_14,test,0,"[SCENE]
+A music banner is visible and someone is singing music
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is about a music scene with someone singing, and there is no evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+628,non_hate_video_143.mp4,non_hate_video_143,test,0,"[SCENE]
+A man is opening a can with a knife
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a mundane action of a man opening a can with a knife, with no evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+633,non_hate_video_147.mp4,non_hate_video_147,test,0,"[SCENE]
+A physically handicapped person is crawling on the ground and making weird noise. He is trying to pick up something that is lying on the ground and after picking it he said ooga booga
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain explicit hateful, abusive, or dehumanizing language, and there is no clear evidence of any other harmful or illegal activity.""
+}"
+646,non_hate_video_157.mp4,non_hate_video_157,test,0,"[SCENE]
+Two guys greated with hello and then said that this has happend in parliament
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any hateful, discriminatory, threatening, violent, fearful, sexual, illegal, or harmful language, and is classified as non-hate.""
+}"
+647,non_hate_video_157.mp4,non_hate_video_157,test,0,"[SCENE]
+A lady is reading the speech in the parliament in front of a lot of peoples and she is talking about the foundation of education that is reading writing and arithmetics for three hours
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a neutral scene of a lady reading a speech in parliament about the foundation of education, with no evidence of hate, harm, or other concerning topics.""
+}"
+650,non_hate_video_161.mp4,non_hate_video_161,test,0,"[SCENE]
+it is a drone shot of a shop named Foot Locker and we can see a lot of destruction in front of the shop.
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['destruction']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene shows destruction in front of a shop, indicating violent action or intent.""
+}"
+656,non_hate_video_164.mp4,non_hate_video_164,test,0,"[SCENE]
+A musical intsrument is playing in the background and cool hollow capers is written on the book page. The author is Frank R. Gills. the book is black and white
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a neutral scene with a musical instrument and a book, with no evidence of hate speech, discrimination, or any other harmful content.""
+}"
+663,non_hate_video_167.mp4,non_hate_video_167,test,0,"[SCENE]
+This is a screen recording of a facebook post in which there is an accident of two cars with one van there is also one trust stopped behind the car seems like the accident created a trafic jam
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['accident']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a neutral scene of a car accident without any explicit evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+664,non_hate_video_167.mp4,non_hate_video_167,test,0,"[SCENE]
+The trafic created by accident is now clearing by moving from the sides of the vehicle
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['accident']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene of a traffic accident being cleared, with no evidence of hate speech, discrimination, threats, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+665,non_hate_video_167.mp4,non_hate_video_167,test,0,"[SCENE]
+Looks like the peoples from those cars are attacking the person who is recording and when the car moved forward they satreted chasing again
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['attack']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes people attacking and chasing the person recording, which directly indicates violent action.""
+}"
+671,non_hate_video_172.mp4,non_hate_video_172,test,0,"[SCENE]
+A person is singing a song and a image is shown with a text message written as There's a dark man coming with a bundle
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is classified as non-hate and neutral, with no explicit evidence to support any of the allowed taxonomy labels.""
+}"
+681,non_hate_video_181.mp4,non_hate_video_181,test,0,"[SCENE]
+In this clip a guy asked something to a person who is sitting in the car and the car guy replied
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Recording']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is neutral and does not contain any explicit or implicit evidence of hate speech, discrimination, threat, violence, fear, sexual, illegal, or online harm.""
+}"
+682,non_hate_video_182.mp4,non_hate_video_182,test,0,"[SCENE]
+cops are arresting someone
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Recording']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a neutral scene description of an arrest without any explicit evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+683,non_hate_video_183.mp4,non_hate_video_183,test,0,"[SCENE]
+cops are cathing theif on the street. The cops are in black uniform and the theif is in orange uniform
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly mentions 'violence in animation' and 'physical fighting scenes', indicating a clear depiction of violent action.""
+}"
+699,non_hate_video_212.mp4,non_hate_video_212,test,0,"[SCENE]
+A people is opening a fence and going in the farm wearing a blue tshirt written animal rescuers on it and another guy is following him
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['animal rescuers']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene of people entering a farm with 'animal rescuers' written on their shirt, with no evidence of hate speech, discrimination, threat, violence, fear, sexual content, illegal activity, or online harm.""
+}"
+703,non_hate_video_220.mp4,non_hate_video_220,test,0,"[SCENE]
+A guy standing attacked a guys sitting on the bench and constantly hitting the guy with punches
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes a physical attack with punches, which is a clear indication of violent action.""
+}"
+727,non_hate_video_255.mp4,non_hate_video_255,test,0,"[SCENE]
+A lady is standing on the stage and speaking something in the mic and then she pointed towards someone
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any explicit language or evidence of hate speech, discrimination, threat, violence, fear, sexual, illegal, or online harm.""
+}"
+728,non_hate_video_255.mp4,non_hate_video_255,test,0,"[SCENE]
+Someone from the crowd standed and started speaking The whole audience is visible in this frame
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any explicit or implicit language that supports any of the allowed taxonomy labels.""
+}"
+761,non_hate_video_298.mp4,non_hate_video_298,test,0,"[SCENE]
+a man is dancing on the busy road weating a cape. the video is recorded at night and then a car came from behind and hit that person
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene of an accident, but does not contain any explicit hateful, threatening, or harmful language or behavior.""
+}"
+767,non_hate_video_312.mp4,non_hate_video_312,test,0,"[SCENE]
+A man is siiting inside the car and holding a gun and there is music playing in the background
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate', ' music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The man is holding a gun, which implies a violent action or intent.""
+}"
+776,non_hate_video_354.mp4,non_hate_video_354,test,0,"[SCENE]
+A person is asking a black boy what did he say to you and then the boy replied that he said ""sit down nigga""
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The use of the racial slur 'nigga' is explicit hateful language targeting a person based on their race.""
+}"
+777,non_hate_video_354.mp4,non_hate_video_354,test,0,"[SCENE]
+A person is showing his trophies to the cameraman in a low light room
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is neutral and does not contain any explicit or implicit harmful language or behavior.""
+}"
+778,non_hate_video_354.mp4,non_hate_video_354,test,0,"[SCENE]
+This person is a teacher and he said the N word to a kid so the peoples are cconfronting him and he is giving justifications.
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The teacher used the N word, which is a racial slur and explicit hateful language.""
+}"
+779,non_hate_video_354.mp4,non_hate_video_354,test,0,"[SCENE]
+This person is a teacher and he said the N word to a kid so the peoples are cconfronting him and he is giving justifications that the nigger and nigga is differnt and he used nigga
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",1,1.0,1,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The teacher used the N word and its variations, which is explicit hateful language.""
+}"
+850,non_hate_video_405.mp4,non_hate_video_405,test,0,"[SCENE]
+This is a static frame in which terms and confition and disclaimer is shown
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is labeled as 'non-hate' and 'neutral', with no explicit language or evidence to support any of the taxonomy labels.""
+}"
+851,non_hate_video_405.mp4,non_hate_video_405,test,0,"[SCENE]
+In this clip the lady is talking about the british first is a hateful organisation and then photograph of people holding anti islam slogans are shown on repeat
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Manipulation']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech|discrimination,"{""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.7, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech"", ""discrimination""],
+  ""scores"": {""hate_speech"": 0.9, ""discrimination"": 0.8, ""contextual_hate"": 0.7, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes the British First as a 'hateful organisation' and shows people holding anti-Islam slogans, indicating hate speech and discrimination against a protected class.""
+}"
+852,non_hate_video_405.mp4,non_hate_video_405,test,0,"[SCENE]
+thiis is a clip in which barak obama is saying that the diversity makes us stronger
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Inspirational Messages']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content features a clip of Barack Obama discussing the strength of diversity, which is a neutral and inspirational message.""
+}"
+857,non_hate_video_410.mp4,non_hate_video_410,test,0,"[SCENE]
+In this video there is room showed in the form of static drawing and a boy is lying on the bed covering his ear and crying and through the window we can see the poster in which trump is written and music is playing
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any explicit hateful, abusive, or dehumanizing language, and the scene described does not imply any harm, threat, or illegal activity.""
+}"
+895,non_hate_video_113.mp4,non_hate_video_113,test,0,"[SCENE]
+Two old man are talking and in background people are laughing
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes two old men talking with people laughing in the background, indicating a neutral and harmless atmosphere.""
+}"
+896,non_hate_video_114.mp4,non_hate_video_114,test,0,"[SCENE]
+Two people were arguing then they started to fight , then 2-3 people came to stop the fight
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes a physical fight scene, which directly supports the violence label.""
+}"
+921,non_hate_video_445.mp4,non_hate_video_445,test,0,"[SCENE]
+This is a clip recorded at night in which some peoples are driving the car over a racoon and they are happy about it
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Animal Abuse']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 1.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 1.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly shows animal abuse, which is a form of violence, and is also illegal.""
+}"
+922,non_hate_video_445.mp4,non_hate_video_445,test,0,"[SCENE]
+When the racoon didn't dies they are beating it with sticks, loud band can be clearly heard
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Animal Abuse']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes animal abuse with physical harm, as indicated by 'beating it with sticks', which directly supports the violence label.""
+}"
+929,non_hate_video_449.mp4,non_hate_video_449,test,0,"[SCENE]
+guy on the wheelchair is dancing and wearing weird cloth
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a person in a wheelchair dancing and wearing unusual clothing, with no evidence of hate speech, discrimination, or other harmful content.""
+}"
+930,non_hate_video_450.mp4,non_hate_video_450,test,0,"[SCENE]
+In this scene lots of rats are present
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene with rats and does not contain any language or evidence that supports the application of any taxonomy labels.""
+}"
+931,non_hate_video_450.mp4,non_hate_video_450,test,0,"[SCENE]
+In this scene lots of rats are present
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene with rats and does not contain any language or evidence that supports the application of any taxonomy labels.""
+}"
+932,non_hate_video_450.mp4,non_hate_video_450,test,0,"[SCENE]
+In this scene two rats are fighting in a pit
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene of two rats fighting in a pit, which does not contain any language or evidence that supports the allowed taxonomy labels.""
+}"
+941,non_hate_video_457.mp4,non_hate_video_457,test,0,"[SCENE]
+A lady is recording her video and sharing her thoughts
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is neutral and does not contain any explicit or implicit hateful, threatening, violent, or harmful language.""
+}"
+948,non_hate_video_466.mp4,non_hate_video_466,test,0,"[SCENE]
+This is a caroon in which africa map is shown and Ranchapokee is pointed and zoomed
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate', ' Fire']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any explicit or implicit hateful, abusive, or harmful language, and does not provide evidence for any of the allowed taxonomy labels.""
+}"
+949,non_hate_video_466.mp4,non_hate_video_466,test,0,"[SCENE]
+This is a caroon in which a waterfall is shown
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate', ' Fire']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a neutral scene of a waterfall, with no evidence of hate speech, discrimination, or other harmful content.""
+}"
+954,non_hate_video_470.mp4,non_hate_video_470,test,0,"[SCENE]
+Another music video with black screen and music is played in the background
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Music']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a music video with a black screen and music, and is labeled as non-hate with no explicit evidence of any harmful content.""
+}"
+958,non_hate_video_474.mp4,non_hate_video_474,test,0,"[SCENE]
+Two peoples are sitting in the car wearing same dress one said you were not gonna kill anyone unless it if for self defence then the other person replied
+
+[ACTION]
+10. Scene
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+scene",0,0.0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,0.0,0,1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any explicit hateful, abusive, or dehumanizing language, and there is no evidence of threat, violence, or other harmful content.""
+}"
+984,non_hate_video_501.mp4,non_hate_video_501,test,0,"[SCENE]
+under a clear daylight and shadows frame, where the recording has been done from a camera angle which seems to be from ground level, and in the front is a house with some sunlight pouring over it and 2 womans near the house gate are seen having a verbal fight, saying i wanna go home, but she was denied
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['verbal fight']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+verbal abuse",1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene depicts a verbal fight between two women, which is classified as verbal abuse, a subcategory of violence.""
+}"
+985,non_hate_video_501.mp4,non_hate_video_501,test,0,"[SCENE]
+under a clear daylight and shadows frame, where the recording has been done from a camera angle which seems to be from ground level, and in the front is a house with some sunlight pouring over it, where a policewoman was trying to pull down a woman as if she was arresting her, but the lady seems to be in pain and makes noises
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['arresting scenario']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+verbal abuse",1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.5, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.5, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Physical altercation between a policewoman and a woman, with the woman showing signs of pain and distress, indicating a violent scene.""
+}"
+986,non_hate_video_501.mp4,non_hate_video_501,test,0,"[SCENE]
+under a clear daylight and shadows frame, where the recording has been done from a camera angle which seems to be from ground level, and in the front is a house with some sunlight pouring over it, where a policewoman was trying to pull down a woman as if she was arresting her, but the lady seems to be in pain and makes noises, police-woman was asking her to put her hands behind her back and she responded that shebwas hurting her but doing nothing
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['arresting scenario']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+verbal abuse",1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.8, ""fear"": 0.2, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.8, ""fear"": 0.2, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Physical restraint and pain during an arrest scenario""
+}"
+987,non_hate_video_501.mp4,non_hate_video_501,test,0,"[SCENE]
+under a clear daylight and shadows frame, where the recording has been done from a camera angle which seems to be from ground level, and in the front is a house with some sunlight pouring over it, where a policewoman was trying to pull down a woman as if she was arresting her, but the lady seems to be in pain and makes noises, police-man near them was asking the police-woman that she should just let her stand up and she is not a threat to the police anymore and something like that
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['arresting scenario']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+verbal abuse",1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content describes a scene of a policewoman attempting to arrest a woman, with no explicit evidence of hate speech, discrimination, or other harmful content.""
+}"
+1012,non_hate_video_513.mp4,non_hate_video_513,test,0,"[SCENE]
+a young girl in the public area was holding a big speaking horn, and is speaking something to the girl right to her, which doesnt seems respectful
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['Name-calling/Insults']
+
+[PARENTLABELS]
+['hate_speech']
+
+[ACTION_CLEAN]
+verbal abuse",1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,hate_speech,"{""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""hate_speech""],
+  ""scores"": {""hate_speech"": 1.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes verbal abuse with name-calling/insults, which is a form of hate speech.""
+}"
+1013,non_hate_video_513.mp4,non_hate_video_513,test,0,"[SCENE]
+a woman and a man during a rally , started fighting with each other while they were carrying thier flags
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Physical fighting scene between a woman and a man during a rally""
+}"
+1014,non_hate_video_514.mp4,non_hate_video_514,test,0,"[SCENE]
+a black man was speaking in a mic, about his feelings that it wont change for a person named dylan
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Non-Hate']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content does not contain any hateful, discriminatory, threatening, violent, fearful, sexual, illegal, or harmful language, and is classified as non-hate.""
+}"
+1015,non_hate_video_514.mp4,non_hate_video_514,test,0,"[SCENE]
+a family photo where a black man was sitting on the ground and everyone else was standing, showing discrimination
+
+[ACTION]
+3. Discrimination
+
+[SUBCATEGORIES]
+['Background/Origin Discrimination', ' 3.5. Social Status Discrimination']
+
+[PARENTLABELS]
+['discrimination']
+
+[ACTION_CLEAN]
+discrimination",0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,discrimination,"{""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""discrimination""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 1.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene shows a family photo where a black man is sitting on the ground while everyone else is standing, indicating discrimination based on social status or background/origin.""
+}"
+1034,non_hate_video_532.mp4,non_hate_video_532,test,0,"[SCENE]
+a man with a blue suit, speaks on the mic a question about a cookie , likw how many hours would a monster take to bake a cookie , and then he answers it in humorous way
+
+[ACTION]
+9. Non-Hate
+
+[SUBCATEGORIES]
+['Humor without Harm']
+
+[PARENTLABELS]
+['neutral']
+
+[ACTION_CLEAN]
+non-hate",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content is a humorous scene about baking a cookie, with no evidence of hate speech, discrimination, or harm.""
+}"
+1049,non_hate_video_9.mp4,non_hate_video_9,test,0,"[SCENE]
+two peoples are arguining in metro and they are surrounded by crowd. there is no physical fight yet
+
+[ACTION]
+2. Verbal Abuse
+
+[SUBCATEGORIES]
+['heated argument.']
+
+[PARENTLABELS]
+['threat']
+
+[ACTION_CLEAN]
+verbal abuse",1,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,fear,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.5, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""fear""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 0.0, ""fear"": 0.5, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes a heated argument between two people surrounded by a crowd, which may cause fear or intimidation among those involved or nearby.""
+}"
+1050,non_hate_video_9.mp4,non_hate_video_9,test,0,"[SCENE]
+two peoples are arguining in metro and they are surrounded by crowd and one person puushed the other guy
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""Physical fighting scene and one person pushing the other indicates violent action.""
+}"
+1051,non_hate_video_9.mp4,non_hate_video_9,test,0,"[SCENE]
+the bald guy hit the other guy with a headbutt and the other guy just fainted inside the metro and some peoples are shouting and one or two are laughing
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The content explicitly describes a physical attack, with one person hitting another with a headbutt, resulting in the victim fainting, which directly supports the violence label.""
+}"
+1056,non_hate_video_123.mp4,non_hate_video_123,test,0,"[SCENE]
+2 traffic policeman caught a person on road , he tried to escape , they shoot them with gun
+
+[ACTION]
+1. Violence in Animation
+
+[SUBCATEGORIES]
+['Physical Fighting Scenes', ' 1.3. Weapon Usage (Fantasy/Real)']
+
+[PARENTLABELS]
+['violence']
+
+[ACTION_CLEAN]
+violence in animation",0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,1.0,1,0,0.0,0,0,0.0,0,0,0.0,0,0,0.0,0,zero_shot_groq_llama33_70b_versatile,groq,llama-3.3-70b-versatile,violence,"{""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0}",1,,"{
+  ""labels"": [""violence""],
+  ""scores"": {""hate_speech"": 0.0, ""discrimination"": 0.0, ""contextual_hate"": 0.0, ""threat"": 0.0, ""violence"": 1.0, ""fear"": 0.0, ""sexual"": 0.0, ""illegal"": 0.0, ""online_harm"": 0.0},
+  ""rationale"": ""The scene describes a physical attack with a gun, which is a clear indication of violent content.""
+}"

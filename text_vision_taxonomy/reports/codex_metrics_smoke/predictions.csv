@@ -1,0 +1,2 @@
+source_video_id,segment_id,split,prob_hate_speech,true_hate_speech,prob_discrimination,true_discrimination,prob_contextual_hate,true_contextual_hate,prob_threat,true_threat,prob_violence,true_violence,prob_fear,true_fear,prob_sexual,true_sexual,prob_illegal,true_illegal,prob_online_harm,true_online_harm
+hate_video_1,hate_video_1_0_5,val,0.39755162596702576,0,0.4980728030204773,0,0.5667871832847595,0,0.46541157364845276,0,0.638857901096344,0,0.47749221324920654,0,0.36991503834724426,0,0.6517963409423828,0,0.5878617167472839,0

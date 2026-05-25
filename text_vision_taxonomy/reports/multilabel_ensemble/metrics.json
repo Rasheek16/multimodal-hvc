@@ -1,0 +1,14 @@
+{
+  "system": "ensemble",
+  "rows": 1060,
+  "micro_precision": 0.9572072072072072,
+  "micro_recall": 0.7906976744186046,
+  "micro_f1": 0.8660213958227203,
+  "macro_precision": 0.7579425189236356,
+  "macro_recall": 0.5608404926076497,
+  "macro_f1": 0.6163147230398885,
+  "neutral_false_positive_rate": 0.023316062176165803,
+  "rare_false_positive_count": 0,
+  "rare_predicted_positive_count": 4,
+  "rare_true_positive_count": 39
+}

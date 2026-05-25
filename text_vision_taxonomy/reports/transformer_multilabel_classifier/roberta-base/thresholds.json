@@ -1,0 +1,11 @@
+{
+  "hate_speech": 0.6307926177978516,
+  "discrimination": 0.6764432787895203,
+  "contextual_hate": 0.49753597378730774,
+  "threat": 0.99,
+  "violence": 0.5856112837791443,
+  "fear": 0.75,
+  "sexual": 0.9194736480712891,
+  "illegal": 0.95,
+  "online_harm": 0.9
+}

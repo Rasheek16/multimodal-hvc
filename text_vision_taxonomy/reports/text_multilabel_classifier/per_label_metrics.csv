@@ -1,0 +1,10 @@
+system,label,threshold,true_count,predicted_count,support,predicted_positive_count,true_positives,false_positives,false_negatives,precision,recall,f1
+tfidf_word_char_linearsvc_calibrated_ovr,hate_speech,0.6129197400444372,62,59,62,59,53,6,9,0.8983050847457628,0.8548387096774194,0.8760330578512397
+tfidf_word_char_linearsvc_calibrated_ovr,discrimination,0.8527774122487747,53,34,53,34,31,3,22,0.9117647058823529,0.5849056603773585,0.7126436781609194
+tfidf_word_char_linearsvc_calibrated_ovr,contextual_hate,0.5820702312320248,42,38,42,38,33,5,9,0.868421052631579,0.7857142857142857,0.825
+tfidf_word_char_linearsvc_calibrated_ovr,threat,0.99,4,0,4,0,0,0,4,0.0,0.0,0.0
+tfidf_word_char_linearsvc_calibrated_ovr,violence,0.21070654813771075,77,81,77,81,64,17,13,0.7901234567901234,0.8311688311688312,0.810126582278481
+tfidf_word_char_linearsvc_calibrated_ovr,fear,0.75,37,8,37,8,8,0,29,1.0,0.21621621621621623,0.35555555555555557
+tfidf_word_char_linearsvc_calibrated_ovr,sexual,0.75,27,25,27,25,25,0,2,1.0,0.9259259259259259,0.9615384615384615
+tfidf_word_char_linearsvc_calibrated_ovr,illegal,0.95,1,0,1,0,0,0,1,0.0,0.0,0.0
+tfidf_word_char_linearsvc_calibrated_ovr,online_harm,0.9,5,2,5,2,2,0,3,1.0,0.4,0.5714285714285715

@@ -1,0 +1,101 @@
+{
+  "labels": [
+    "hate_speech",
+    "discrimination",
+    "contextual_hate",
+    "threat",
+    "violence",
+    "fear",
+    "sexual",
+    "illegal",
+    "online_harm"
+  ],
+  "production_mode": "precision_target_80_or_top_k_with_rare_overrides",
+  "rare_support_cutoff": 10,
+  "rare_production_thresholds": {
+    "threat": 0.9,
+    "illegal": 0.95,
+    "online_harm": 0.9,
+    "sexual": 0.85
+  },
+  "production_thresholds": {
+    "hate_speech": 0.5940363434583342,
+    "discrimination": 0.6849307429308292,
+    "contextual_hate": 0.659587079941254,
+    "threat": 0.9,
+    "violence": 0.4270761046856767,
+    "fear": 0.496440456301331,
+    "sexual": 0.85,
+    "illegal": 0.95,
+    "online_harm": 0.9
+  },
+  "thresholds_by_mode": {
+    "f1_optimal": {
+      "hate_speech": 0.5,
+      "discrimination": 0.5151485541713989,
+      "contextual_hate": 0.5,
+      "threat": 0.2828415280488588,
+      "violence": 0.44,
+      "fear": 0.4676250446186037,
+      "sexual": 0.45,
+      "illegal": 0.33999999999999997,
+      "online_harm": 0.33
+    },
+    "precision_target_70": {
+      "hate_speech": 0.5322053411700849,
+      "discrimination": 0.6849307429308292,
+      "contextual_hate": 0.57470089233374,
+      "threat": 0.99,
+      "violence": 0.4270761046856767,
+      "fear": 0.496440456301331,
+      "sexual": 0.507662244400514,
+      "illegal": 0.460552164750261,
+      "online_harm": 0.5932704887505343
+    },
+    "precision_target_80": {
+      "hate_speech": 0.5940363434583342,
+      "discrimination": 0.6849307429308292,
+      "contextual_hate": 0.659587079941254,
+      "threat": 0.99,
+      "violence": 0.4270761046856767,
+      "fear": 0.496440456301331,
+      "sexual": 0.507662244400514,
+      "illegal": 0.460552164750261,
+      "online_harm": 0.5932704887505343
+    },
+    "precision_target_90": {
+      "hate_speech": 0.6775027643178312,
+      "discrimination": 0.7434243756789495,
+      "contextual_hate": 0.7208153476623462,
+      "threat": 0.99,
+      "violence": 0.4270761046856767,
+      "fear": 0.5102257584154719,
+      "sexual": 0.507662244400514,
+      "illegal": 0.460552164750261,
+      "online_harm": 0.5932704887505343
+    },
+    "top_k_by_prevalence": {
+      "hate_speech": 0.5632474398126732,
+      "discrimination": 0.5865710308438742,
+      "contextual_hate": 0.57470089233374,
+      "threat": 0.3508408574400571,
+      "violence": 0.4135252693969287,
+      "fear": 0.4857634684697411,
+      "sexual": 0.507662244400514,
+      "illegal": 0.460552164750261,
+      "online_harm": 0.5932704887505343
+    },
+    "production": {
+      "hate_speech": 0.5940363434583342,
+      "discrimination": 0.6849307429308292,
+      "contextual_hate": 0.659587079941254,
+      "threat": 0.9,
+      "violence": 0.4270761046856767,
+      "fear": 0.496440456301331,
+      "sexual": 0.85,
+      "illegal": 0.95,
+      "online_harm": 0.9
+    }
+  },
+  "threshold_report": "reports\\taxonomy_ensemble\\threshold_report.csv"
+}

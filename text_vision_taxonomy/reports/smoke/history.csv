@@ -1,0 +1,2 @@
+epoch,train_loss,train_binary_label_loss,train_text_binary_distill,train_text_severity_distill,train_embedding_alignment,train_severity_consistency,train_severity_ce,val_threshold,val_accuracy,val_f1,val_precision,val_recall,val_roc_auc,val_pr_auc,val_severity_accuracy_pseudo,val_severity_macro_f1_pseudo
+1,0.774556577205658,0.7587835788726807,0.0,0.0,0.0,0.07886510342359543,1.4460409879684448,0.5,1.0,0.0,0.0,0.0,0.5,0.0,1.0,1.0
